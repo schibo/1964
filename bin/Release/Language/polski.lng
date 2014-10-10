@@ -1,0 +1,411 @@
+! Polish language file by Nosferathoo<manime@o2.pl> with small help from Zalus<palbicki@wp.pl>
+! Built on top of English language file
+!
+!
+!    Created by Rice, 12/08/2003
+!    For further questions, email me at rice1964@yahoo.com
+!
+!    For file format information and other explanation, please refer to the readme.txt file.
+!    
+
+
+!Menu items, must be before dialog sections and string section
+
+1,&Plik
+2,&Otwórz ROM...
+3,Zamknij ROM
+4,Jêzyk
+5,Polski
+6,Zapisz Stan
+7,Do pliku...
+8,Do pliku w formacie Project64...
+9,Do pliku w formacie 1964.085...
+10,Do slotu 0
+11,Do slotu 1
+12,Do slotu 2
+13,Do slotu 3
+14,Do slotu 4
+15,Do slotu 5
+16,Do slotu 6
+17,Do slotu 7
+18,Do slotu 8
+19,Do slotu 9
+20,Wczytaj stan
+21,Z pliku...
+22,Z pliku w formacie Project64...
+23,Ze slotu 0
+24,Ze slotu 1
+25,Ze slotu 2
+26,Ze slotu 3
+27,Ze slotu 4
+28,Ze slotu 5
+29,Ze slotu 6
+30,Ze slotu 7
+31,Ze slotu 8
+32,Ze slotu 9
+33,Zmieñ katalog z plikami ROM...
+34,Odœwie¿ listê
+35,Ostatnio otwierane katalogi
+36,Ostatnio otwierane pliki ROM
+37,&Zakoñcz
+
+38,&Edycja
+39,Cheaty...
+40,Opcje okna...
+41,W³aœciwoœci ROMu...
+
+42,E&mulacja
+43,&Uruchom/Wstrzymaj
+44,Reset
+45,&Zatrzymaj
+46,Zabij pracê CPU
+47,Zmieñ kompiler
+48,Interpreter
+49,Dynamic Compiler (Domyœlny)
+50,W³¹cz kody GameSharka
+51,Counter Factor	
+52,Automatyczny
+53,1 x .5 Half Rate
+54,1 x 1 Full Rate
+55,2 x 1 Half Rate (Domyœlny)
+56,2 x 2 Full Rate
+57,3 x 1.5 Half Rate
+58,3 x 3 Full Rate
+59,4 x 2 Half Rate
+60,8 x 4 Half Rate
+61,Limit klatek
+62,Automatyczny FrameSkip
+63,Screen Shot
+64,Zmienny limit klatek
+65,Zwiêksz prêdkoœæ
+66,Zmniejsc prêdkoœæ
+67,Przywróæ prawid³ow¹ prêkoœæ
+68,&Pluginy
+69,Zmieñ pluginy...
+70,Ustawienia &Video...
+71,Ustawienia &Audio...
+72,Ustawienia &Sterowania...
+73,Ustawienia RSP...
+74,Pe³ny ekran
+75,Gra po sieci
+76,Po³¹cz z serwerem Kailera...
+77,Lag
+78,1 (mniej)
+79,2
+80,3
+81,4 (Domyœlnie)
+82,5
+83,6
+84,7 (wiêcej)
+85,Pomo&c
+86,Pomoc online
+87,Pomoc do cheatów
+88,Strona &domowa 1964
+89,Informacja o GPL...
+90,O gwarancji...
+91,O &autorach 1964...
+92,Wczytaj i graj w oknie
+95,Wczytaj i graj na pe³nym ekranie
+96,Cheaty...
+97,Zmieñ katalog z romami...
+98,W³aœciwoœci ROM'u...
+99,Nag³ówkowy Popup 1
+100,Pokazuj alternatywn¹ nazwê ROMu
+101,Pokazuj wewnêtrzn¹ nazwê ROMu
+102,Pokazuj nazwê pliku ROM
+103,Sortuj rosn¹co
+104,Sortuj malej¹co
+105,Dodaj/usuñ kolumny...
+106,Nag³ówkowy Popup 2
+107,Sortuj rosn¹co
+108,Sortuj malej¹co
+109,Dodaj/usuñ kolumny...
+110,Ustawienia pluginu dla ROM...
+111,Informacje o ROM'ie...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 autorstwa schibo i Rice\nCheaty autorstwa Emu64 Cheats Team\nOficjalny plik ROM_Properties.ini autorstwa Duncan
+1,\n1964 nie jest zwi¹zane z ¿adn¹ firm¹.\nWszystkie loga/znaki handlowe s¹ w³aœnoœci¹ ich prawowitego(-ych) w³aœciciela(-i).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nPodziêkowania: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nHosting: www.emulation64.com
+3,\nPozdro: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,O autorach
+5,Informacje o systemie
+6,Optymizacje SSE w³¹czone?:
+7,Powód:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,U¿yj cheat'ów
+1,Kody do tej gry
+2,Zaznacz
+3,Odznacz
+4,Odznacz wszystkie
+5,WprowadŸ nowy kod
+6,Nazwa
+7,Kraj:
+8,Dodaj/Zmieñ
+9,Usuñ
+10,Uwagi:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,W³¹cz przegl¹darkê ROM'ów
+1,Wyœwietlana nazwa gry
+2,Alternatywna nazwa
+3,Wewnêtrzna nazwa ROM
+4,Nazwa pliku ROM
+5,Iloœæ wyœwietlanych kolumn
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Zamknij to okno
+1,Wyczyœæ komunikaty
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROM'y
+1,U¿ywaj ostatnio otwartego katalogu
+2,Save'y gier
+3,U¿ywaj domyœlnie: $1964.exe\\Save
+4,Pluginy
+5,U¿ywaj domyœlnie: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,Elementy menu Plik
+1,Wyœwietlaj ostatnio otwarte katalogi
+2,Ile?
+3,Wyœwietlaj ostatnio otwarte ROM'y
+4,Ile?
+5,Zachowanie okna
+6,Pauzuj gdy okno 1964 nie jest aktywne
+7,Uruchom ROM na pe³nym ekranie
+8,Pokazuj okno z logiem b³êdów
+9,Informacje na pasku status
+10,Counters
+11,Profiler
+12,Wy³¹czone
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,O autorach
+1,O autorach
+2,O autorach
+3,O autorach
+4,Œci¹gnij &pluginy z sieci
+5,Audio
+6,Video
+7,RSP
+8,Wejœcie
+9,Wyœwietl domyœlne ustawienia pluginów
+10,Wyœwietl domyœlne ustawienia ROM
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,Nazwa pliku:
+1,Wewnêtrzna nazwa ROM'u:
+2,Kraj:
+3,Œcie¿ka pliku:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Save Type:
+3,Use TLB:
+4,EEPROM Size:
+5,Counter Factor:
+6,Max VI Limit:
+7,Compiler
+8,Core:
+9,DMA in Segments:
+10,Self-Modifying Code:
+11,Assume 32bit:
+12,Register Caching:
+13,CP1 Unusable Exceptions:
+14,Link Code Blocks:
+15,Two-Pass Compiler:
+16,With plugins
+17,Frame Buffer R/W:
+18,RSP/RDP Timing:
+19,Alternatywna nazwa (maks. 50 znaków):
+20,Komentarz (maks. 80 znaków)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,W tym momencie niedostêpne.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,Cheaty
+1,Okno
+2,Pluginy
+3,W³aœciwoœci ROM'u
+4,Przegl¹darka ROM'ów
+5,Informacje o ROM'ie
+6,Katalogi
+7,O autorach 1964
+8,Nazwa ROM'u
+9,Kraj
+10,Rozmiar
+11,Kompatybilnoœæ
+12,Save Type
+13,CIC Chip
+14,Graczy
+15,Otwórz ROM
+16,Wybierz katalog z ROM'ami
+17,Wyjœcie
+18,Could not get a windows handle.
+19,Wczytaj ustawienia romu z pliku ROM_Properties.ini
+20,Szukam plików ROM w wybranym katalogu i tworzê listê
+21,B³¹d
+22,CreateWindow() failed: Cannot create a window.
+23,Pracuje
+24,Wczytano
+25,Kaillera gracz %d odszed³
+26,Zapisuje stan
+27,Wczytuje stan
+28,Plik stanu
+29,Wszystkie pliki
+30,Wybierz katalog z save'ami
+31,Wybierz katalog z pluginami
+32,Wybierz katalog z ROM'ami
+33,Zatrzymano
+34,Gotowy
+35,Wczytuje plugin RSP:
+36,Inicjuje plugin RSP ...
+37,Wczytuje plugin Video:
+38,Inicjuje plugin Video ...
+39,Wczytuje plugin Wejœcia:
+40,Inicjuje plugin Wejœcia ...
+41,Wczytuje plugin Audio:
+42,nie dostêpne
+43,Domyœlny systemowy plugin Video
+44,Domyœlny systemowy plugin Audio
+45,Domyœlny systemowy plugin Wejœcia
+46,Domyœlny systemowy plugin RSP
+47,Plugin video dla aktualnego ROM'u
+48,Plugin audio dla aktualnego ROM'u
+49,Plugin wejœcia dla aktualnego ROM'u
+50,Plugin RSP dla aktualnego ROM'u
+51,Wyst¹pi³ b³¹d przy otwieraniu pliku. Proszê odœwie¿yæ listê.
+52,Exception in emulation thread
+53,B³¹d przy otwarciu pliku.
+54,Ten zapis stanu nie jest kompatybilny z t¹ wersj¹ 1964.
+55,Konflikt wersji
+56,Wczytuje
+57,Kaillera: przekroczony czas po³¹czenia
+58,Wyœlij ustawienia gry do innych graczy
+59,Wyœlij kody cheat do innych graczy
+60,Kaillera rozpoczyna gre
+61,Kaillera wait for 1 second
+62,domyœlny
+63,domyœlny
+64,Nie
+65,Tak
+66,Dyna-Compiler
+67,Interpreter
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Pierwszy u¿yty
+73,Wszystkie u¿yte typy
+74,Bez sprawdzania
+75,SprawdŸ tylko DMA
+76,SprawdŸ DWORD
+77,SprawdŸ QWORD
+78,SprawdŸ QWORD i DMA
+79,SprawdŸ Block
+80,SprawdŸ Block i DMA
+81,Protect Memory
+82,Bez limitu
+83,Auto Synchoniacja
+84,Bez EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Wszystkie kraje
+88,USA - NTSC
+89,Japan - NTSC
+90,USA & Japan - NTSC
+91,Europe - PAL
+92,Australia - PAL
+93,France - PAL
+94,Germany - PAL
+95,(z³y kod kraju)
+96,Uaktualnianie przegl¹darki ROM'ów...
+97,Wszystkie kraje
+98,USA - NTSC
+99,Japan - NTSC
+100,Czy napewno chcesz skasowaæ ten kod?
+101,Nie wykryto wsparcia sprzêtowego
+102,Wy³¹czone w tej wersji
+103,Wykryto wsparcie sprzêtowe i wsparcie OS
+104,Wykryto wsparcie sprzêtowe, nie wykryto wsparcia OS
+105,U¿yj domyœlnych ustawieñ systemowych
+106,Pe³ny ekran (Alt+Enter)
+107,Strona domowa 1964
+108,W³aœciwoœci ROM'u (Ctrl+S)
+109,Otwórz (Ctrl+O)
+110,Wstrzymaj (F3)
+111,Uruchom (F3)
+112,Zatrzymaj (F4)
+113,Zmieñ pluginy (Ctrl+P)
+114,Reset (F2)
+115,Pomoc online (F1)
+116,Automatyczny FrameSkip (F11)
+117,Limit klatek (F9)
+118,Automatic CF Timing Adjust  (F10)
+119,W³¹cz kody Gamesharka (F8)
+120,Wstrzymano
+121,core
+122,video
+123,audio
+124,compiler
+125,idle
+126,netplay
+127,kaillera
+128,Demo
+129,Beta
+130,USA/Japan
+131,German
+132,France
+133,Italy
+134,Japan
+135,Europe
+136,Spain
+137,Australia
+
+

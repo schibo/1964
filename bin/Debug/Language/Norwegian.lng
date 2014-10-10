@@ -1,0 +1,409 @@
+! Norwegian Language File
+!
+!
+!    Laget av Arnold Olsen, 20/12/2003 Sent på natten
+!    For flere spørsmål, email meg på ArHu2@isyd.no
+!
+!    Besøk www.arnoldshjemmesdide.tk 
+
+
+!Menu items, must be before dialog sections and string section
+
+1,&Fil
+2,&Åpne ROM...
+3,Lukk ROM
+4,Språk
+5,Norsk
+6,Lagre tilstand
+7,Til fil...
+8,Til  Project64 Lagre Tilstand Fil...
+9,Til 1964 Fil...
+10,Til plass 0
+11,Til plass 1
+12,Til plass 2
+13,Til plass 3
+14,Til plass 4
+15,Til plass 5
+16,Til plass 6
+17,Til plass 7
+18,Til plass 8
+19,Til plass 9
+20,Last tilstand
+21,Fra Fil...
+22,Fra Project64 Lagre tilstand Fil...
+23,Fra plass 0
+24,Fra plass 1
+25,Fra plass 2
+26,Fra plass 3
+27,Fra plass 4
+28,Fra plass 5
+29,Fra plass 6
+30,Fra plass 7
+31,Fra plass 8
+32,Fra plass 9
+33,Angi ROM Mappe...
+34,Oppdater ROM Liste
+35,Nyåpnede ROM Mapper
+36,Nyåpnede ROMs
+37,A&vslutte
+
+38,&Redigere
+39,Jukse Koder...
+40,Windu Valg...
+41,ROM Egenskaper...
+
+42,E&mulasjon
+43,&Pause/Spill
+44,Nullstill
+45,&Stopp
+46,Drep CPUens gange 
+47,Bytt Kompilator
+48,Interpreter
+49,Dynamic Compiler (Standard)
+50,Inngi Gameshark Grønn Knapp Juksekoder
+51,Telleforhold	
+52,Automatisk
+53,1 x .5 Halv Rate
+54,1 x 1 Full Rate
+55,2 x 1 Halv Rate (Default)
+56,2 x 2 Full Rate
+57,3 x 1.5 Halv Rate
+58,3 x 3 Full Rate
+59,4 x 2 Halv Rate
+60,8 x 4 Halv Rate
+61,Fartsgrense
+62,Automatisk Bildehyppighets Hopp
+63,Skjermfoto
+64,Variabele Fartsgrenser
+65,Øk Fart
+66,Mink Fart
+67,Gjennopprett riktig fart
+68,&Tileggsfiler
+69,Bytte Tileggfiler...
+70,&Video Instillinger...
+71,&Lyd Instillinger...
+72,&Innputts Instillinger...
+73,RSP Instillinger...
+74,Full Skjerm
+75,Net Spill
+76,Koble til Kaillera Server...
+77,Hakk
+78,1 (Mindre)
+79,2
+80,3
+81,4 (Standard)
+82,5
+83,6
+84,7 (Mer)
+85,&Hjelp
+86,Online Hjelp
+87,Offline Juksekode Hjelp
+88,&1964 Hjemmeside
+89,GPL Informasjon...
+90,Om Garanti...
+91,&Om 1964...
+92,Last && Spill i et vindu
+95,Load && Spill med hele skjermen
+96,Juksekoder...
+97,Bytt Rom Mappe...
+98,ROM Egenskaper...
+99,Header Poppopp 1
+100,Vis Alternativt ROM Navn
+101,Vis Internt ROM Navn
+102,Vis ROM Fil Navn
+103,Kort Oppstigende
+104,Kort Nedsynkende
+105,Legg til/Ta vekk kolonner...
+106,Header Poppopp 2
+107,Kort Oppstigende
+108,Kort Nedsynkende
+109,Legg til/Ta vekk kolonner...
+110,ROM Tileggsfil instilling...
+111,ROM Informasjon...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 av schibo og Rice\nJuksekoder av  Emu64 Jukse Lag\nOffesiell ROM_Properties.ini Fil av Duncan
+1,\n1964 er ikke assosiert med noe firma.\nAlle logoer/varemerke er eiendommen til deres respektive eier(e).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nTakk: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nwww.emulation64.com har vært vert.
+3,\nHilsener: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Om
+5,System informasjon
+6,SSE Optimeringer satt på?:
+7,Grunn:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,Bruk Juksekoder
+1,Koder for dette spillet
+2,Velg
+3,Dropp Valg
+4,Dropp alle Valg
+5,Tast Juksekode
+6,Navn
+7,Land:
+8,Legg til/Modifiser
+9,Slett
+10,Bemerkninger:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,Sett på ROM Leser
+1,Spill Navn Til Skjermen
+2,Alternativt Navn
+3,Internt ROM Navn
+4,Rom Fil Navn
+5,Kolonner til Skjermen
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Lukk dette winduet
+1,Rens Beskjeder
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROM
+1,Bruk den sist åpnede mappen
+2,Lagrede spill
+3,Bruk standard: $1964.exe\\Save
+4,Tileggsfiler
+5,Bruk Standard: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,Fil Meny Element
+1,Vis Nyåpnede ROM Mapper
+2,Hvor mange?
+3,Vis Nyåpnede ROM
+4,Hvor mange?
+5,Windu oppførsel
+6,Pause når 1964 Windu er Inaktivt
+7,Start ROM i Full Skjerm
+8,Vis Feillogg Windu
+9,Status Bar Formaner
+10,Tellere
+11,Profiler
+12,Avaktivert
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,Om
+1,Om
+2,Om
+3,Om
+4,&Last ned Tileggsfiler Online
+5,Lyd
+6,Video
+7,RSP
+8,Innputt
+9,Vis standard tileggsfil instilling
+10,Vis ROM tileggsfil instilling
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&Okey den e grei
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,Fil navn:
+1,Rom Internt Navn:
+2,Land:
+3,Fil Lokalisering:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Lagringstype:
+3,Bruk TLB:
+4,EEPROM Størrelse:
+5,Telle Forhold:
+6,Maksimal VI Grense:
+7,Kompilator
+8,Kjerne:
+9,DMA i stykker:
+10,Selv-Modifiserende Kode:
+11,Regne med 32bit:
+12,Registrer lagring:
+13,CP1 Ubrukelige Unntakstilfeller:
+14,Link Code Blokker:
+15,To-Pass Kompilator:
+16,Med tileggsfiler
+17,Bildehyppighets Buffer R/W:
+18,RSP/RDP Tidsberegning:
+19,Altrenativ Tittel (50 bokstaver maksimalt.):
+20,Kommentarer (80 Bokstaver maksimalt.)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,Ikke tilgjengelig på dette tidspukt.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,Juksekoder
+1,Windu
+2,Tileggsfiler
+3,ROM Egenskaper
+4,ROM Leser
+5,ROM Informasjon
+6,Mapper
+7,Om 1964
+8,ROM Navn
+9,Land
+10,Størrelse
+11,Kompitabilitetsstatus
+12,Lagringstype
+13,CIC Chip
+14,Spillere
+15,Åpne ROM
+16,Velg en ROM mappe
+17,Avslutte
+18,Klarte ikke å holde fast i vinduet.
+19,Last Rom Instillinger fra ROM_Properties.ini
+20,Ser etter ROM filer i ROM katalogen og Genererer Liste
+21,Feil :(
+22,Lage Windu() gikk ikke: Kan ikke lage windu.
+23,Kjører
+24,Lastet
+25,Kaillera spiller %d ikke lengre med
+26,Lagrer tilstand 
+27,Laster tilstand
+28,Tilstandsfil
+29,Alle Filer
+30,Velg spill Lagremappe
+31,Velg Mappe for Tileggsfiler
+32,Velg ROM Mappe
+33,Stoppet
+34,Klar
+35,Laster RSP Tileggsfil:
+36,Innledende RSP Tileggsfil ...
+37,Laster Video Tileggsfil:
+38,Innledende Video Tileggsfil ...
+39,Laster Innputt Tileggsfil:
+40,Innledende Innputt Tileggsfil ...
+41,Laster Lyd Tileggsfil:
+42,ikke tilgjengelig
+43,System Standard Video Tileggsfil
+44,System Standard Lyd Tileggsfil
+45,System Standard Innputt Tileggsfil
+46,System Standard RSP Plugin
+47,Video Tileggsfil For Gjeldende ROM
+48,Lyd Tileggsfil For Gjeldende ROM
+49,Innputt Tileggsfil For Gjeldende ROM
+50,RSP Tileggsfil For Gjeldende ROM
+51,Feil under åpning av dette rommet. Oppdater ROM listen.
+52,Unntak i emulasjonens gang
+53,Filen kunne ikke åpnes.
+54,Denne lagringstilstanden er ukompitabel med denne versionen av 1964.
+55,Version Konflikt
+56,Laster
+57,Kaillera tidut
+58,Opplast spill instillinger til andre spillere
+59,Opplast juksekoder til andre spillere
+60,Kaillera starter spillet
+61,Kaillera venter i 1 sekund
+62,standard
+63,standard
+64,Nei
+65,Ja
+66,Dyna-Compiler
+67,Interpreter
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Først Brukt
+73,Alle Brukte Typer
+74,Ingen Sjekk
+75,Sjekk Bare DMA
+76,Sjekk DWORD
+77,Sjekk QWORD
+78,Sjekk QWORD og DMA
+79,Sjekk Blokk
+80,Sjekk Blokk og DMA
+81,Beskytt Minnet
+82,Ingen Grense
+83,Automatisk Synkronisering
+84,Ikke EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Alle Land
+88,USA - NTSC
+89,Japan - NTSC
+90,USA og Japan - NTSC
+91,Europa - PAL
+92,Australia - PAL
+93,Frankrike - PAL
+94,Tyskland - PAL
+95,(Land Kode Passet ikke)
+96,Oppdaterer ROM leser...
+97,Alle Land
+98,USA - NTSC
+99,Japan - NTSC
+100,Er du sikker på at du vil slette denne koden?
+101,Ingen Hardware støtte funnet
+102,Avaktiver i denne oppbygningen
+103,Hardware og OS Støtte funnet
+104,Hardware Støtte, men ingen OS støtte funnet
+105,Bruk systemets standard instilling
+106,Full Skjerm (Alt+Enter)
+107,1964 Hjemmeside
+108,ROM Egenskaper (Ctrl+S)
+109,Åpne (Ctrl+O)
+110,Pause (F3)
+111,Spill (F3)
+112,Stopp (F4)
+113,Bytt tileggsfiler (Ctrl+P)
+114,Nullstill (F2)
+115,Online Hjelp (F1)
+116,Automatisk Bildeoppdaterings Hopp (F11)
+117,Fartsgrense (F9)
+118,Automatisk TF Timing Still (F10)
+119,Inngi Grønn Knapp Juksekode (F8)
+120,Er på Pause
+121,Kjerne
+122,video
+123,Lyd
+124,Kompilator
+125,drive
+126,nettspill
+127,kaillera
+128,Demonstrasjon
+129,Ikke fullført
+130,USA/Japan
+131,Tyskland
+132,Frankrike
+133,Italia
+134,Japan
+135,Europa
+136,Spania
+137,Australia
+
+

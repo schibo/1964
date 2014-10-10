@@ -1,0 +1,11 @@
+REGEDIT4
+;
+;simple RiceDaedalus.dll uninstall script by Gent
+;revision for Windows95, Windows98, WindowsMe
+;
+
+[-HKEY_CURRENT_USER\Software\DAEDALUSD3D8_Rel3]
+[-HKEY_CURRENT_USER\Software\RICEDAEDALUS4]
+[-HKEY_CURRENT_USER\Software\RICEDAEDALUS440]
+[-HKEY_CURRENT_USER\Software\RICEDAEDALUS510]
+[-HKEY_CURRENT_USER\Software\RICEDAEDALUS520]

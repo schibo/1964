@@ -1,0 +1,412 @@
+! Chinese Simplified language file
+!
+! File format
+!    * all lines starts with '!', or with space character ' ' will be ignored
+!    * all empty lines are ignored
+!    * line format:  "number, string"
+!    * number sequence is important, don't mix the leading numbers
+!    * please refer to the English language file for leading number sequence
+!    * don't add anything else at the end of number-leaded lines
+!
+!    Created by Rice, 11/07/2003
+!
+
+
+!Menu items, must be before dialog sections and string section
+
+1,文件(&F)
+2,打开R&OM文件...
+3,关闭ROM
+4,语言
+5,English
+6,保存游戏记录
+7,到记录...
+8,转换为Project64记录...
+9,转换为1964.085记录...
+10,到记录0
+11,到记录1
+12,到记录2
+13,到记录3
+14,到记录4
+15,到记录5
+16,到记录6
+17,到记录7
+18,到记录8
+19,到记录9
+20,读取记录
+21,由记录...
+22,由Project64记录...
+23,由记录0
+24,由记录1
+25,由记录2
+26,由记录3
+27,由记录4
+28,由记录5
+29,由记录6
+30,由记录7
+31,由记录8
+32,由记录9
+33,改变游戏文件路径...
+34,刷新文件列表
+35,最近游戏文件路径
+36,最近游戏
+37,退出(E&xit)
+
+38,修改(&E)
+39,Cheat密码...
+40,设置...
+41,游戏设置...
+
+42,模拟(&m)
+43,暂停/开始(&P)
+44,重新开始
+45,结束(&S)
+46,中断CPU进程
+47,CPU内核
+48,解释器
+49,动态编译器(缺省设置)
+50,使用Gameshark绿键游戏修改密码
+51,CPU时钟设置	
+52,自动设置
+53,1 x .5 半速
+54,1 x 1 全速
+55,2 x 1 半速(缺省设置)
+56,2 x 2 全速
+57,3 x 1.5 半速
+58,3 x 3 全速
+59,4 x 2 半速
+60,8 x 4 全速
+61,限制速度
+62,自动跳贞
+63,抓屏
+64,可调限制速度
+65,增加速度
+66,降低速度
+67,恢复正确速度
+68,插件(&P)
+69,更改插件...
+70,绘图插件(&V)设置...
+71,声音插件(&A)设置...
+72,插件(&I)设置...
+73,RSP插件设置...
+74,全屏幕
+75,连网游戏
+76,连接Kaillera服务器 ...
+77,延时
+78,1 (少)
+79,2
+80,3
+81,4 (缺省设置)
+82,5
+83,6
+84,7 (多)
+85,帮助(&H)
+86,在线帮助
+87,修改密码帮助
+88,&1964主页
+89,软件许可GPL信息...
+90,关于保证...
+91,关于1964(&A)...
+92,在窗口运行该游戏
+95,在全屏幕运行该游戏
+96,游戏修改密码...
+97,改变游戏文件路径...
+98,游戏设置...
+99,Header Popup 1
+100,显示另外ROM游戏名
+101,显示ROM内部游戏名
+102,显示ROM文件名
+103,顺序排列
+104,逆序排列
+105,增加/减少显示的信息...
+106,Header Popup 2
+107,顺序排列
+108,逆序排列
+109,增加/减少显示的信息...
+110,游戏插件设置...
+111,游戏信息...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 by schibo and Rice\nCheat codes by  Emu64 Cheats Team\nOfficial ROM_Properties.ini File by Duncan
+1,\n1964 is not affiliated with any company.\nAll logos/trademarks are the property of their respective owner(s).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\n感谢: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nHosted by www.emulation64.com
+3,\感谢: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,关于
+5,系统信息
+6,SSE优化?:
+7,原因:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,使用游戏修改密码
+1,该游戏的修改密码
+2,选中
+3,不选中
+4,不选中所有
+5,输入新密码
+6,密码名字
+7,国家:
+8,增加/修改
+9,删除
+10,解释:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,使用游戏列表
+1,显示游戏名
+2,另外的游戏名
+3,ROM内部游戏名
+4,游戏文件名
+5,显示其它信息
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,关闭该窗口
+1,清除
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,游戏文件目录
+1,使用上次打开的游戏文件目录
+2,游戏保存目录
+3,使用默任目录: $1964.exe\\Save
+4,插件文件目录
+5,使用默任目录: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,文件
+1,显示最近游戏文件路径
+2,多少?
+3,显示最近游戏
+4,多少?
+5,主窗口设置
+6,当窗口不活跃时暂停游戏
+7,以全屏幕方式运行游戏
+8,显示错误信息窗口
+9,在状态行显示
+10,记数
+11,CPU使用情况统计
+12,不显示
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,关于
+1,关于
+2,关于
+3,关于
+4,下载插件
+5,声音
+6,图像
+7,RSP
+8,游戏杆
+9,显示系统插件设置
+10,显示该游戏插件设置
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,文件名:
+1,游戏内部名:
+2,国家:
+3,文件路经:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,硬件
+1,储存扩展卡:
+2,储存类型:
+3,使用TLB:
+4,EEPROM大小:
+5,CPU时钟设置:
+6,速度限制:
+7,编译器
+8,内核:
+9,DMA分段:
+10,自修改代码检测:
+11,使用32位CPU:
+12,寄存器优化:
+13,CP1不可用信号:
+14,连接代码块:
+15,双重编译:
+16,与图像插件:
+17,显示缓冲区读写:
+18,RSP/RDP时钟:
+19,另外标题(最多50字符):
+20,注释(最多80字符)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,现在不能使用.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,游戏修改密码
+1,一般设置
+2,插件
+3,游戏设置
+4,游戏Browser
+5,游戏信息
+6,路经设置
+7,关于1964
+8,游戏名
+9,国家
+10,文件大小
+11,游戏可玩性
+12,游戏保存类型
+13,CIC芯片
+14,玩家数
+15,打开游戏
+16,选择游戏文件目录
+17,退出
+18,不能得到窗口句柄
+19,从ROM_Properties.ini调入游戏设置
+20,在目录中寻找游戏文件并生成列表
+21,错误
+22,CreateWindow()出错:不能产生窗口
+23,正在运行
+24,已经调入
+25,Kaillera玩家%d退出了
+26,正在保存游戏状态
+27,正在读取游戏状态
+28,保存文件
+29,所有文件
+30,选择游戏保存目录
+31,选择插件目录
+32,选择游戏文件目录
+33,停止了
+34,准备好了
+35,调入RSP插件:
+36,初始化RSP插件 ...
+37,调入图像插件:
+38,初始化图像插件 ...
+39,调入游戏杆插件:
+40,初始化游戏杆插件 ...
+41,调入声音插件:
+42,没有该插件
+43,系统图像插件
+44,系统声音插件
+45,系统游戏手柄插件
+46,系统RSP插件
+47,当前游戏图像插件
+48,当前游戏声音插件
+49,当前游戏游戏手柄插件
+50,当前游戏RSP插件
+51,打开文件错误,请刷新游戏列表
+52,模拟器异常错误
+53,不能打开文件
+54,该游戏保存文件不兼容.
+55,版本冲突
+56,调入
+57,Kaillera超时错误
+58,上传游戏设置到其他玩家
+59,上传游戏修改密码到其他玩家
+60,Kaillera开始游戏
+61,Kaillera等候1秒钟
+62,默认设置
+63,默认设置
+64,不
+65,是
+66,动态编译器
+67,解释器
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,第一使用的类型
+73,所有使用的类型
+74,不检查
+75,只检查DMA
+76,检查2字
+77,检查4字
+78,检查4字和DMA
+79,检查代码块
+80,检查代码块和DMA
+81,保护内存
+82,无速度限制
+83,自动速度限制
+84,No EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,所有国家
+88,美国 - NTSC
+89,日本 - NTSC
+90,美国和日本 - NTSC
+91,欧洲 - PAL
+92,澳大利亚 - PAL
+93,法国 - PAL
+94,德国 - PAL
+95,(国家码不匹配)
+96,更新游戏列表...
+97,所有国家
+98,美国 - NTSC
+99,日本 - NTSC
+100,请确认删除?
+101,硬件不支持
+102,功能没有激活
+103,硬件和操作系统支持
+104,硬件支持,但操作系统不支持
+105,使用系统插件
+106,全屏幕 (Alt+Enter)
+107,1964主页
+108,游戏设置 (Ctrl+S)
+109,打开 (Ctrl+O)
+110,暂停 (F3)
+111,开始 (F3)
+112,停止 (F4)
+113,改变插件 (Ctrl+P)
+114,复位 (F2)
+115,帮助 (F1)
+116,自动跳贞 (F11)
+117,限制速度 (F9)
+118,自动CPU时钟设置  (F10)
+119,使用Gameshark绿键游戏修改密码 (F8)
+120,暂停
+121,内核
+122,图像
+123,声音
+124,编译
+125,空闲
+126,网络
+127,kaillera
+128,演示版
+129,测试版
+130,美国/日本
+131,德国
+132,法国
+133,意大利
+134,日本
+135,欧洲
+136,Spain
+137,澳大利亚

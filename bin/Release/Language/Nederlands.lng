@@ -1,0 +1,410 @@
+! Dutch language file
+!
+!
+!    Created by EMu-LoRd, 12/16/2003
+!    For further questions, email me at emu-lord@emuhelp.com
+!
+!    For file format information and other explanation, please refer to the readme.txt file.
+!    
+
+
+!Menu items, must be before dialog sections and string section
+
+1,&Bestand
+2,&ROM Openen...
+3,ROM Sluiten
+4,Taal
+5,Nederlands
+6,Status Opslaan
+7,Naar Bestand...
+8,Naar  Project64 Opslag Status Bestand...
+9,Naar 1964.085 Bestand...
+10,Naar Slot 0
+11,Naar Slot 1
+12,Naar Slot 2
+13,Naar Slot 3
+14,Naar Slot 4
+15,Naar Slot 5
+16,Naar Slot 6
+17,Naar Slot 7
+18,Naar Slot 8
+19,Naar Slot 9
+20,Status Laden
+21,Vanaf Bestand...
+22,Vanaf Project64 Opslag Status Bestand...
+23,Vanaf Slot 0
+24,Vanaf Slot 1
+25,Vanaf Slot 2
+26,Vanaf Slot 3
+27,Vanaf Slot 4
+28,Vanaf Slot 5
+29,Vanaf Slot 6
+30,Vanaf Slot 7
+31,Vanaf Slot 8
+32,Vanaf Slot 9
+33,Verander ROM Directoy...
+34,Ververs ROM Lijst
+35,Recentelijke ROM Directories
+36,Recentelijke ROMs
+37,&Afsluiten
+
+38,&Aanpassen
+39,Cheat Codes...
+40,Venster Opties...
+41,ROM Eigenschappen...
+
+42,E&mulatie
+43,&Pauzeren/Starten
+44,Herstarten
+45,&Stop
+46,Beëindig CPU proces 
+47,Verwissel Compiler
+48,Interpreter
+49,Dynamic Compiler (Standaard)
+50,Invoeren Gameshark Green Button Cheats
+51,Factor Teller	
+52,Automatisch
+53,1 x .5 Halve Snelheid
+54,1 x 1 Volle Snelheid
+55,2 x 1 Halve Snelheid (Standaard)
+56,2 x 2 Volle Snelheid
+57,3 x 1.5 Halve Snelheid
+58,3 x 3 Volle Snelheid
+59,4 x 2 Halve Snelheid
+60,8 x 4 Halve Snelheid
+61,Snelheid Beperking
+62,Automatische Frame Skip
+63,Screen Shot
+64,Variabele Snelheids Beperkingen
+65,Verhoog Snelheid
+66,Verlaag Snelheid
+67,Herstellen juiste Snelheid
+68,&Plug-ins
+69,Verander Plug-ins...
+70,&Grafische Instellingen...
+71,&Geluid Instellingen...
+72,&Besturing Instellingen...
+73,RSP Instellingen...
+74,Volledig Schermformaat
+75,Net Play
+76,Bezig met verbinden met de Kaillera Server ...
+77,Vertraging
+78,1 (minder)
+79,2
+80,3
+81,4 (standaard)
+82,5
+83,6
+84,7 (meer)
+85,&Help
+86,Online Help
+87,Help Handleiding
+88,&1964 Home Page
+89,GPL Informatie...
+90,Over de Garantie...
+91,&Over 1964...
+92,Laden && Spelen in Venster Formaat
+95,Laden && Spelen in Volledig Schermformaat
+96,Cheat Codes...
+97,Verander ROM Directory...
+98,ROM Eigenschappen...
+99,Header Popup 1
+100,Laat Alternatieve ROM Naam zien
+101,Laat Interne ROM Naam zien
+102,Laat ROM Bestandsnaam zien
+103,Sorteer Oplopend
+104,Sorteer Aflopend
+105,Toevoegen/Verwijderen Kolommen...
+106,Header Popup 2
+107,Sorteer Oplopend
+108,Sorteer Aflopend
+109,Toevoegen/Verwijderen Kolommen...
+110,ROM Plugin Instellingen...
+111,ROM Informatie...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 door schibo and Rice\nCheat codes door  Emu64 Cheats Team\nOfficiële ROM_Properties.ini Bestand door Duncan
+1,\n1964 is niet aangesloten bij een bedrijf.\nAlle logo's/handelsmerken zijn eigendom van de desbetreffende houders(s).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nMet dank aan: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nGehost door www.emulation64.com
+3,\nGroeten aan: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Over
+5,Systeem Informatie
+6,SSE Optimalisaties Ingeschakeld?:
+7,Reden:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,Gebruik Cheat Codes
+1,Codes voor dit spel
+2,Selecteer
+3,Deselecteer
+4,Deselecteer Allen
+5,Voer Nieuwe Code in
+6,Naam
+7,Land:
+8,Toevoegen/Aanpassen
+9,Verwijderen
+10,Opmerkingen:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,ROM Verkenner Inschakelen
+1,Spel Naam om te laten zien
+2,Alternatieve Naam
+3,Interne ROM Naam
+4,ROM Bestandsnaam
+5,Kolommen om te laten zien
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Dit Venster Afsluiten
+1,Berichten Weghalen
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROMs
+1,Gebruik de laatst geopende directory
+2,Spel Opslagbestanden
+3,Gebruik standaard: $1964.exe\\Opslaan
+4,Plugins
+5,Gebruik standaard: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,Bestand Menu Onderdelen
+1,Laat Recentelijke ROM Directories zien
+2,Hoeveel?
+3,Laat Recentelijke ROMs zien
+4,Hoeveel?
+5,Venster Gedrag
+6,Pauzeer als het 1964 Venster inactief is
+7,Start ROM in Volledige Schermformaat
+8,Laat Fout Log Venster zien
+9,Status Bar Controle
+10,Tellers
+11,Profiler
+12,Uitgeschakeld
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,Over
+1,Over
+2,Over
+3,Over
+4,&Download Plug-ins Online
+5,Geluid
+6,Grafisch
+7,RSP
+8,Besturing
+9,Laat standaard plugin instellingen zien
+10,Laat ROM plugin instellingen zien
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,Bestandsnaam:
+1,Interne ROM Naam:
+2,Land:
+3,Locatie Bestand:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Opslag Type:
+3,Gebruik TLB:
+4,EEPROM Grootte:
+5,Factor Teller:
+6,Max VI Beperking:
+7,Compiler
+8,Core:
+9,DMA in Segmenten:
+10,Zelf-Aanpassende Code:
+11,Uitgaan van 32bit:
+12,Registreer Caching:
+13,CP1 Onbruikbare Uitzonderingen:
+14,Link Blokken Codes:
+15,Two-Pass Compiler:
+16,Met plugins
+17,Frame Buffer R/W:
+18,RSP/RDP Timing:
+19,Alternatieve Titel (50 karakters max.):
+20,Commentaar (80 karakters max.)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,Tijdelijk niet beschikbaar.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,Cheat Codes
+1,Venster
+2,Plug-ins
+3,ROM Eigenschappen
+4,ROM Verkenner
+5,ROM Informatie
+6,Directories
+7,Over 1964
+8,ROM Naam
+9,Land
+10,Grootte
+11,Compatibiliteit Status
+12,Opslag Type
+13,CIC Chip
+14,Spelers
+15,ROM Openen
+16,Selecteer een ROM directory
+17,Afsluiten
+18,Kon geen venster handeling hanteren.
+19,Laad ROM Eigenschappen vanaf ROM_Properties.ini
+20,Zoeken naar ROM bestanden in de ROM directory en Genereer Lijst
+21,Fout
+22,CreateWindow() gefaald: Kan geen venster creëren.
+23,Draaien
+24,Geladen
+25,Kaillera speler %d afgevallen
+26,Bezig met Status Opslag
+27,Bezig met Laden Status
+28,Status Bestand
+29,Alle Bestanden
+30,Selecteer Spel Opslag Directory
+31,Selecteer Plugin Directory
+32,Selecteer ROM Directory
+33,Gestopt
+34,Gereed
+35,Laden van RSP Plugin:
+36,Initialiseren RSP Plugin ...
+37,Laden van Grafische Plugin:
+38,Initialiseren Grafische Plugin ...
+39,Laden van Besturings Plugin:
+40,Initialiseren Besturings Plugin ...
+41,Laden van Geluids Plugin:
+42,niet beschikbaar
+43,Standaard Systeem Grafische Plugin
+44,Standaard Systeem Geluids Plugin
+45,Standaard Systeem Besturings Plugin
+46,Standaard Systeem RSP Plugin
+47,Grafische Plugin Voor Huidige ROM
+48,Geluid Plugin Voor Huidige ROM
+49,Besturing Plugin Voor Huidige ROM
+50,RSP Plugin Voor Huidige ROM
+51,Fout bij het openen van dit bestand. Ververs de ROM lijst.
+52,Uitzondering in het emulatie proces
+53,Bestand kon niet worden geopend.
+54,Dit opslagstatus bestand is tegenstrijdig met deze versie van 1964.
+55,Versie Conflict
+56,Bezig met laden
+57,Kaillera timeout
+58,Upload spel instellen naar andere spelers
+59,Upload cheat codes naar andere spelers
+60,Kaillera start het spel
+61,Kaillera wacht 1 seconde
+62,standaard
+63,Standaard
+64,Nee
+65,Ja
+66,Dyna-Compiler
+67,Interpreter
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Eerste Gebruikt
+73,Alle Gebruikte Types
+74,Geen Controle
+75,Controleer alleen DMA
+76,Controleer DWORD
+77,Controleer QWORD
+78,Controleer QWORD & DMA
+79,Controleer Block
+80,Controleer Block & DMA
+81,Protect Memory
+82,Geen Beperkingen
+83,Auto Sync
+84,Geen EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Alle Landen
+88,USA - NTSC
+89,Japan - NTSC
+90,USA & Japan - NTSC
+91,Europa - PAL
+92,Australië - PAL
+93,Frankrijk - PAL
+94,Duitsland - PAL
+95,(verkeerde combinatie land code)
+96,Bijwerken ROM verkenner...
+97,Alle Landen
+98,USA - NTSC
+99,Japan - NTSC
+100,Deze code echt verwijderen?
+101,Geen Hardware Ondersteuning Gevonden
+102,Uitgeschakeld in deze versie
+103,Hardware en OS Ondersteuning Gevonden
+104,Hardware Ondersteuning, maar Geen OS Ondersteuning Gevonden
+105,Gebruik standaard systeem instelling
+106,Volledig Schermformaat (Alt+Enter)
+107,1964 Home Page
+108,ROM Eigenschappen (Ctrl+S)
+109,Openen (Ctrl+O)
+110,Pauzeren (F3)
+111,Starten (F3)
+112,Stoppen (F4)
+113,Verander Plugins (Ctrl+P)
+114,Herstarten (F2)
+115,Help (F1)
+116,Automatische Frame Skip (F11)
+117,Snelheid Beperking (F9)
+118,Automatisch Bijstellen van CF Timing (F10)
+119,Invoeren Green Button Cheat (F8)
+120,Gepauzeerd
+121,core
+122,grafisch
+123,geluid
+124,compiler
+125,idle
+126,netplay
+127,kaillera
+128,Demo
+129,Beta
+130,USA/Japan
+131,Duitsland
+132,Frankrijk
+133,Italië
+134,Japan
+135,Europa
+136,Spanje
+137,Australië
+
+

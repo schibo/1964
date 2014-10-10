@@ -1,0 +1,411 @@
+! Archivo de idioma español
+!
+!
+!    Creado por PabloJM, 18/12/2003
+!    Para consultas, enviar un email a pjmedina3@yahoo.com
+!
+!    Para obtener información del formato del archivo y otras explicaciones,
+!    por favor, toma el archivo readme.txt como referencia. (NOTA: está en inglés)
+
+
+!Los elementos del menú deben estar antes de las secciones de diálogos (dialog=...)
+!y la sección de cadenas denominada "String Sections".
+
+1,&Archivo
+2,A&brir ROM...
+3,Cerrar ROM
+4,Idioma
+5,Español
+6,Guardar estado
+7,A un archivo...
+8,A un archivo de estado de Project64...
+9,A un archivo en formato 1964.085...
+10,A la entrada 0
+11,A la entrada 1
+12,A la entrada 2
+13,A la entrada 3
+14,A la entrada 4
+15,A la entrada 5
+16,A la entrada 6
+17,A la entrada 7
+18,A la entrada 8
+19,A la entrada 9
+20,Cargar estado
+21,Desde un Archivo...
+22,Desde un estado Project64...
+23,Desde la entrada 0
+24,Desde la entrada 1
+25,Desde la entrada 2
+26,Desde la entrada 3
+27,Desde la entrada 4
+28,Desde la entrada 5
+29,Desde la entrada 6
+30,Desde la entrada 7
+31,Desde la entrada 8
+32,Desde la entrada 9
+33,Cambiar carpeta de ROMs...
+34,Actualizar lista de ROMs
+35,Carpetas ROM recientes
+36,ROMs recientes
+37,Sa&lir
+
+38,&Edición
+39,Trucos...
+40,Opciones de ventanas...
+41,Propiedades de la ROM...
+
+42,E&mulación
+43,&Pausar/Jugar
+44,Reiniciar
+45,&Detener
+46,Eliminar Thread de CPU
+47,Cambiar Compilador
+48,Intérprete
+49,Compilador Dinámico (predeterminado)
+50,Inyectar trucos de Green Button de Gameshark
+51,Factor de contador	
+52,Automático
+53,Velocidad media 1 x .5 
+54,Velocidad completa 1 x 1
+55,Velocidad media 2 x 1 (predeterminado)
+56,Velocidad completa 2 x 2
+57,Velocidad media 3 x 1.5
+58,Velocidad completa 3 x 3
+59,Velocidad media 4 x 2
+60,Velocidad media 8 x 4
+61,Límite de velocidad
+62,Salto de cuadros automático
+63,Capturar pantalla
+64,Límites de velocidad variables
+65,Aumentar velocidad
+66,Reducir velocidad
+67,Restaurar velocidad correcta
+68,&Extensiones
+69,Cambiar extensiones...
+70,Opciones de &Video...
+71,Opciones de &Audio...
+72,Opciones de &Entrada...
+73,Opciones de RSP...
+74,Pantalla completa
+75,Juego en red
+76,Conectar a servidor Kaillera ...
+77,Retardo
+78,1 (menos)
+79,2
+80,3
+81,4 (predeterminado)
+82,5
+83,6
+84,7 (más)
+85,A&yuda
+86,Ayuda en línea
+87,Ayuda de trucos sin conexión
+88,Página principal de &1964
+89,Información de GPL...
+90,Acerca de la garantía...
+91,&Acerca de 1964...
+92,Cargar &y jugar en una ventana
+95,Cargar &y jugar en pantalla completa
+96,Trucos...
+97,Cambiar carpeta de Roms...
+98,Propiedades de la ROM...
+99,Encabezado emergente 1
+100,Mostrar nombre de ROM alternativo
+101,Mostrar nombre de ROM interno
+102,Mostrar nombre de archivo de la ROM
+103,Ordenar en forma ascendente
+104,Ordenar en forma descendente
+105,Agregar/Quitar columnas...
+106,Encabezado emergente 2
+107,Ordenar en forma ascendente
+108,Ordenar en forma descendente
+109,Agregar/Quitar columnas...
+110,Propiedades de las extensiones de la ROM...
+111,Información de la ROM...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=0
+0,\n1964 0.9.9 por schibo y Rice\nTrucos por  el equipo de trucos de Emu64\nArchivo oficial ROM_Properties.ini por Duncan
+1,\n1964 no está afiliado a ninguna empresa.\nTodos los logos/marcas registradas son propiedade de sus respectivos dueños.
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nAgradecimientos: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nAdministrado por www.emulation64.com
+3,\nSaludos a: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Acerca de...
+5,Información del sistema
+6,¿Optimizaciones SSE habilitadas?:
+7,Motivo:
+
+!CHEAT_HACK
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=1
+0,Usar trucos
+1,Trucos para este juego
+2,Marcar
+3,Desmarcar
+4,Desmarcar todos
+5,Agregar un truco nuevo
+6,Nombre
+7,País:
+8,Agregar/Modificar
+9,Eliminar
+10,Notas:
+
+!COL_SELECT
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=2
+0,Habilitar explorador de ROMs
+1,Nombre de juego para mostrar
+2,Nombre alternativo
+3,Nombre interno de la ROM
+4,Nombre de archivo de la ROM
+5,Columnas a mostrar
+
+!CRITICAL_MESSAGE
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=3
+0,Cerrar esta ventana
+1,Borrar mensajes
+
+
+
+!FOLDERS DIALOGEX
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=4
+0,ROMs
+1,Usar la última carpeta abierta
+2,Partidas grabadas
+3,Usar predeterminada: $1964.exe\\Save
+4,Extensiones
+5,Usar predeterminada: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=5
+0,Elementos del menú archivo
+1,Mostrar carpetas de ROM recientes
+2,¿Cuántas?
+3,Mostrar las ROMs recientes
+4,¿Cuántas?
+5,Comportamiento de la ventana
+6,Pausar cuando la ventana de 1964 esté inactiva
+7,Iniciar ROM en pantalla completa
+8,Mostrar ventana de registro de errores
+9,Monitoreo de la barra de estado
+10,Contadores
+11,Profiler
+12,Desactivado
+
+
+
+!PLUGINS
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=6
+0,Acerca de
+1,Acerca de
+2,Acerca de
+3,Acerca de
+4,&Descargar extensiones en línea
+5,Audio
+6,Video
+7,RSP
+8,Entrada
+9,Mostrar configuración de la extensión predeterminada
+10,Mostrar configuracción de la extension de la ROM
+
+!REDISTRIB_DIALOG
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=7
+0,&Aceptar
+
+
+!ROM_INFO
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=8
+0,Nombre de archivo:
+1,Nombre interno de la ROM:
+2,País:
+3,Ubicación del archivo:
+
+
+
+!ROM_OPTIONS
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Tipo de grabación:
+3,Usar TLB:
+4,Tamaño de la EEPROM:
+5,Factor de conteo:
+6,Límite VI máximo:
+7,Compilador
+8,Motor:
+9,DMA en segmentos:
+10,Codigo auto-modificable:
+11,Asumir 32 bits:
+12,Caché de registros:
+13,Excepciones inútiles de CP1:
+14,Vincular bloques de código:
+15,Compilador en dos pasos:
+16,Con extensiones
+17,L/E Frame Buffer:
+18,Temporización de RSP/RDP:
+19,Título alternativo (max. 50 caracteres):
+20,Comentarios (max. 80 caracteres)
+
+!UNAVAILABLE DIALOGEX
+!No traduzcas la siguiente línea, la línea "Dialog=n" es una línea de configuración
+Dialog=10
+0,No disponible en este momento.
+
+
+!No traduzcas la siguiente línea, la línea "String Section" es una clave para el programa
+String Section
+
+0,Trucos
+1,Ventana
+2,Extensiones
+3,Propiedades de la ROM
+4,Explorador de ROM
+5,Información de la ROM
+6,Carpetas
+7,Acerca de 1964
+8,Nombre de la ROM
+9,País
+10,Tamaño
+11,Estado de compatibilidad
+12,Tipo de grabación
+13,Chip CIC
+14,Jugadores
+15,Abrir ROM
+16,Elegir una carpeta de ROM
+17,Salir
+18,No se pudo obtener un identificador de ventana.
+19,Cargar configuración de la Rom desde ROM_Properties.ini
+20,Buscando ROMs en el directorio de ROMs y generando la lista
+21,Error
+22,Hubo un fallo en CreateWindow(): No se pudo crear una ventana.
+23,Ejecutando
+24,Cargada
+25,El jugador %d de Kaillera se ha desconectado
+26,Guardando estado
+27,Cargando estado
+28,Archivo de estado
+29,Todos los archivos
+30,Elegir carpeta de grabación de partidas
+31,Elegir carpeta de extensiones
+32,Elegir carpeta de ROMs
+33,Detenido
+34,Listo
+35,Cargando extensión de RSP:
+36,Inicializar extensión de RSP ...
+37,Cargando extensión de Video:
+38,Inicializar extensión de Video ...
+39,Cargando extensión de entrada:
+40,Inicializar extensión de entrada ...
+41,Cargando extensión de Audio:
+42,no disponible
+43,Extension de Video predeterminada del sistema
+44,Extensión de Audio predeterminada del sistema
+45,Extensión de Entrada predeterminada del sistema
+46,Extensión de RSP predeterminada del sistema
+47,Extensión de Video para la ROM actual
+48,Extensión de Audio para la ROM actual
+49,Extensión de entrada para la ROM actual
+50,Extensión de RSP para la ROM actual
+51,Hubo un error al abrir este archivo. Por favor, actualiza la lista de ROMs.
+52,Se produjo una excepción en el thread de emulación
+53,No pudo abrirse el archivo.
+54,Esta partida guardada no es compatible con esta versión de 1964.
+55,Conflicto de versiones
+56,Cargando
+57,Agotado el tiempo de espera de Kaillera
+58,Enviar configuración del juego a otros jugadores
+59,Enviar trucos a otros jugadores
+60,Kaillera comienza el juego
+61,Kaillera espera 1 segundo
+62,predeterminado
+63,Predeterminado
+64,No
+65,Sí
+66,Compilador dinámico
+67,Intérprete
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Primero utilizado
+73,Todos los tipos utilizados
+74,No verificar
+75,Verificar sólamente DMA
+76,Verificar DWORD
+77,Verificar QWORD
+78,Verificar QWORD y DMA
+79,Verificar bloque
+80,Verificar bloque y DMA
+81,Proteger memoria
+82,No Limitar
+83,Sincronizar automáticamente
+84,Sin EEPROM
+85,EEPROM de 4kb
+86,EEPROM de 16kb
+87,Todos los países
+88,EEUU - NTSC
+89,Japón - NTSC
+90,EEUU y Japón - NTSC
+91,Europa - PAL
+92,Australia - PAL
+93,Francia - PAL
+94,Alemania - PAL
+95,(el código de país no coincide)
+96,Actualizando explorador de ROMs...
+97,Todos los países
+98,EEUU - NTSC
+99,Japón - NTSC
+100,¿Estás seguro de querer borrar este truco?
+101,No se detectó soporte de hardware
+102,Desactivado en esta revisión
+103,Soporte de Hardware y SO detectados
+104,Soporte de Hardware detectado, pero sin soporte de SO
+105,Usar configuración predeterminada del sistema
+106,Pantalla completa (Alt+Entrar/Intro)
+107,Página principal de 1964
+108,Propiedades de la ROM (Ctrl+S)
+109,Abrir (Ctrl+O)
+110,Pausar (F3)
+111,Jugar (F3)
+112,Detener (F4)
+113,Cambiar extensiones (Ctrl+P)
+114,Reiniciar (F2)
+115,Ayuda en línea (F1)
+116,Salto de cuadros automático (F11)
+117,Límite de velocidad (F9)
+118,Ajuste automático de tiempos FC  (F10)
+119,Inyectar trucos de Green Button (F8)
+120,Pausado
+121,motor
+122,video
+123,audio
+124,compilador
+125,inactivo
+126,juego en red
+127,kaillera
+128,Demo
+129,Beta
+130,EEUU/Japón
+131,Alemania
+132,Francia
+133,Italia
+134,Japón
+135,Europa
+136,España
+137,Australia
+
+

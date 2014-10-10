@@ -1,0 +1,414 @@
+! Japanese language file
+!
+!
+!    Created by Nekokabu, 2003/12/25
+!    For further questions, email me at nekokabu@NSPMpost.html.ne.jp in Japanese.
+!    Since character transformation probably takes place, some texts are
+!    not translated into Japanese.
+!    Only the place where character transformation does not take place
+!    is translated into Japanese.
+!
+!
+!	おそらく文字化けが起こるので、一部の文章は日本語に訳していません。
+!	文字化けが起こらないところだけを日本語に訳しています。
+!
+!Menu items, must be before dialog sections and string section
+
+1,ファイル(&F)
+2,ロムを開く(&O)...
+3,ロムを閉じる
+4,言語
+5,English
+6,状態の保存
+7,ファイルに保存...
+8,PJ64形式ファイルで保存...
+9,1964 0.85互換形式で保存...
+10,スロット 0
+11,スロット 1
+12,スロット 2
+13,スロット 3
+14,スロット 4
+15,スロット 5
+16,スロット 6
+17,スロット 7
+18,スロット 8
+19,スロット 9
+20,状態の復元
+21,ファイルから復元...
+22,PJ64形式ファイルから復元...
+23,スロット 0
+24,スロット 1
+25,スロット 2
+26,スロット 3
+27,スロット 4
+28,スロット 5
+29,スロット 6
+30,スロット 7
+31,スロット 8
+32,スロット 9
+33,ロムフォルダの変更...
+34,リストの更新
+35,最近開いたロムフォルダ
+36,最近開いたロムファイル
+37,終了(&X)
+
+38,編集(&E)
+39,チートコード...
+40,ウィンドウ設定...
+41,ロム設定...
+
+42,エミュレーション(&M)
+43,ポーズ(&P)
+44,リセット
+45,停止(&P)
+46,CPUスレッドを停止
+47,コンパイラの切り替え
+48,インタプリタ
+49,再コンパイラ（デフォルト）
+50,GCボタン
+51,カウンターファクター	
+52,自動設定
+53,1 x .5 ハーフレート
+54,1 x 1 フルレート
+55,2 x 1 ハーフレート（デフォルト）
+56,2 x 2 フルレート
+57,3 x 1.5 ハーフレート
+58,3 x 3 フルレート
+59,4 x 2 ハーフレート
+60,8 x 4 ハーフレート
+61,フレームレートの制限
+62,フレームスキップ
+63,スクリーンショット
+64,フレームレートの変更
+65,フレームレートを上げる
+66,フレームレート下げる
+67,フレームレートを戻す
+68,プラグイン(&P)
+69,プラグインの変更...
+70,ビデオプラグインの設定(&V)...
+71,オーディオプラグインの設定(&A)...
+72,インプットプラグインの設定(&I)...
+73,RSPプラグインの設定...
+74,フルスクリーン
+75,ネットプレイ
+76,Kailleraサーバに接続...
+77,タイムラグ
+78,1 (小)
+79,2
+80,3
+81,4 (デフォルト)
+82,5
+83,6
+84,7 (大)
+85,ヘルプ(&H)
+86,オンラインヘルプ
+87,チートヘルプ
+88,&1964 ホームページ
+89,GPL情報...
+90,保証について...
+91,1964について(&A)...
+92,ウィンドウで実行
+95,フルスクリーンで実行
+96,チートコード...
+97,ロムフォルダの変更...
+98,ロム設定...
+99,Header Popup 1
+100,Good Nameの表示
+101,内部ロム名の表示
+102,ロムファイル名の表示
+103,上方向に並び替え
+104,下方向に並び替え
+105,表示する情報の変更...
+106,Header Popup 2
+107,上方向に並び替え
+108,下方向に並び替え
+109,表示する情報の変更...
+110,プラグインの設定...
+111,ロム情報...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 by schibo and Rice\nCheat codes by  Emu64 Cheats Team\nOfficial ROM_Properties.ini File by Duncan
+1,\n1964 is not affiliated with any company.\nAll logos/trademarks are the property of their respective owner(s).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nThanks: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nHosted by www.emulation64.com
+3,\nGreets: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,About
+5,System Information
+6,SSE Optimizations Enabled?:
+7,Reason:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,Use Cheat Codes
+1,Codes for this game
+2,Select
+3,Unselect
+4,Unselect All
+5,Enter New Code
+6,Name
+7,Country:
+8,Add/Modify
+9,Delete
+10,Notes:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,Enable ROM Browser
+1,Game Name To Display
+2,Alternate Name
+3,Internal ROM Name
+4,Rom File Name
+5,Columns to Display
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Close This Window
+1,Clear Messages
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROMs
+1,Use the last opened folder
+2,Game Saves
+3,Use default: $1964.exe\\Save
+4,Plugins
+5,Use default: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,File Menu Items
+1,Display Recent ROM Folders
+2,How many?
+3,Display Recent ROMs
+4,How many?
+5,Window Behavior
+6,Pause When 1964 Window Is Inactive
+7,Start ROM in Full Screen
+8,Display Error Log Window
+9,Status Bar Monitoring
+10,Counters
+11,Profiler
+12,Disabled
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,About
+1,About
+2,About
+3,About
+4,&Download Plug-ins Online
+5,Audio
+6,Video
+7,RSP
+8,Input
+9,Display default plugin setting
+10,Display ROM plugin setting
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,File name:
+1,Rom Internal Name:
+2,Country:
+3,File Location:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Save Type:
+3,Use TLB:
+4,EEPROM Size:
+5,Counter Factor:
+6,Max VI Limit:
+7,Compiler
+8,Core:
+9,DMA in Segments:
+10,Self-Modifying Code:
+11,Assume 32bit:
+12,Register Caching:
+13,CP1 Unusable Exceptions:
+14,Link Code Blocks:
+15,Two-Pass Compiler:
+16,With plugins
+17,Frame Buffer R/W:
+18,RSP/RDP Timing:
+19,Alternate Title (50 characters max.):
+20,Comments (80 characters max.)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,使用することはできません。
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,チートコード
+1,ウィンドウ
+2,プラグイン
+3,ロム設定
+4,ロムブラウザ
+5,ロム情報
+6,フォルダ
+7,1964について
+8,ロム名
+9,国情報
+10,サイズ
+11,互換性情報
+12,セーブタイプ
+13,CICチップ
+14,プレイヤー
+15,ロムを開く
+16,ロムフォルダの選択
+17,終了
+18,ウィンドウハンドルを取得できませんでした。
+19,ROM_Properties.iniからロム設定を読み込む
+20,ロムフォルダからロムを読み込みなおし、リストを更新します
+21,エラー
+22,CreateWindow() の失敗：ウィンドウを作成できません。
+23,実行
+24,読み込み
+25,Kaillera プレイヤー %d
+26,状態を保存
+27,状態を復元
+28,状態保存ファイル
+29,すべてのファイル
+30,セーブフォルダを選択して下さい
+31,プラグインフォルダを選択して下さい
+32,ロムフォルダを選択して下さい
+33,停止
+34,レディ
+35,Loading RSP Plugin:
+36,Init RSP Plugin ...
+37,Loading Video Plugin:
+38,Init Video Plugin ...
+39,Loading Input Plugin:
+40,Init Input Plugin ...
+41,Loading Audio Plugin:
+42,not available
+43,System Default Video Plugin
+44,System Default Audio Plugin
+45,System Default Input Plugin
+46,System Default RSP Plugin
+47,Video Plugin For Current ROM
+48,Audio Plugin For Current ROM
+49,Input Plugin For Current ROM
+50,RSP Plugin For Current ROM
+51,ロムファイルの読み込みに失敗しました。ロムリストを更新してください。
+52,エミュレーションスレッドの例外
+53,ファイルを開くことができません
+54,この状態保存ファイルは、1964と互換性がありません。
+55,バージョンが一致しません
+56,読み込み中
+57,Kaillera タイムアウト
+58,ゲーム設定を他のプレイヤーにアップロードしています。
+59,チートコードを他のプレイヤーにアップロードしています
+60,Kaillera ゲームの開始
+61,Kaillera しばらくお待ち下さい
+62,default
+63,Default
+64,No
+65,Yes
+66,Dyna-Compiler
+67,Interpreter
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,First Used
+73,All Used Types
+74,No Check
+75,Check DMA only
+76,Check DWORD
+77,Check QWORD
+78,Check QWORD & DMA
+79,Check Block
+80,Check Block & DMA
+81,Protect Memory
+82,No Limit
+83,Auto Sync
+84,No EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,All Countries
+88,USA - NTSC
+89,Japan - NTSC
+90,USA & Japan - NTSC
+91,Europe - PAL
+92,Australia - PAL
+93,France - PAL
+94,Germany - PAL
+95,(country code mismatch)
+96,ロムブラウザを更新しています...
+97,All Countries
+98,USA - NTSC
+99,Japan - NTSC
+100,このコードを削除してよろしいですか？
+101,サポートするハードウェアが見つかりません。
+102,このビルドでは使用できません。
+103,ハードウェアとOSはサポートされます。
+104,ハードウェアはサポートされますが、OSはサポートされません。
+105,Use system default setting
+106,フルスクリーン(Alt+Enter)
+107,1964 ホームページ
+108,ロム設定 (Ctrl+S)
+109,開く (Ctrl+O)
+110,ポーズ (F3)
+111,実行 (F3)
+112,停止 (F4)
+113,プラグインの設定 (Ctrl+P)
+114,リセット (F2)
+115,オンラインヘルプ (F1)
+116,フレームスキップ (F11)
+117,フレームレートの制限 (F9)
+118,クロックファクターの自動調節 (F10)
+119,GSボタン (F8)
+120,ポーズ
+121,core
+122,video
+123,audio
+124,compiler
+125,idle
+126,netplay
+127,kaillera
+128,Demo
+129,Beta
+130,USA/Japan
+131,German
+132,France
+133,Italy
+134,Japan
+135,Europe
+136,Spain
+137,Australia
+
+

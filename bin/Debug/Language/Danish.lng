@@ -1,0 +1,408 @@
+! Dansk sprog fil
+!
+!
+!    Dansk oversættelse af Dedicated Supply Crew (DSC), 12/27/2003
+!
+!    For information og forklaringer omkring denne fil, henvises du til readme.txt filen.
+!    
+
+
+!Menu items, skal være før dialog/string sektioner
+
+1,&Fil
+2,&Åben ROM...
+3,Luk ROM
+4,Sprog
+5,Dansk
+6,Gem Indstillinger
+7,Til Fil...
+8,Til  Project64 Gem Instillings Fil...
+9,Til 1964.085 Fil...
+10,Til Slot 0
+11,Til Slot 1
+12,Til Slot 2
+13,Til Slot 3
+14,Til Slot 4
+15,Til Slot 5
+16,Til Slot 6
+17,Til Slot 7
+18,Til Slot 8
+19,Til Slot 9
+20,Hent Indstillinger
+21,Fra Fil...
+22,Fra Project64 Gem Indstillings Fil...
+23,Fra Slot 0
+24,Fra Slot 1
+25,Fra Slot 2
+26,Fra Slot 3
+27,Fra Slot 4
+28,Fra Slot 5
+29,Fra Slot 6
+30,Fra Slot 7
+31,Fra Slot 8
+32,Fra Slot 9
+33,Ændre ROM Folder...
+34,Opfrisk ROM Liste
+35,Tidligere ROM Folder
+36,Tidligere ROM
+37,A&fslut
+
+38,&Ændre
+39,Snyde Koder...
+40,Vindue Valg...
+41,ROM Instillinger...
+
+42,E&mulation
+43,&Pause/Afspil
+44,Nulstil
+45,&Stop
+46,Dræb CPU Trusler
+47,Skift Oversætter
+48,Fortolker
+49,Dynamisk Oversætter (standart)
+50,Tilføj Gamesharks Grønne Snydeknap
+51,Tæller Faktore	
+52,Automatisk
+53,1 x .5 Halv Rate
+54,1 x 1 Fuld Rate
+55,2 x 1 Halv Rate (standart)
+56,2 x 2 Fuld Rate
+57,3 x 1.5 Halv Rate
+58,3 x 3 Fuld Rate
+59,4 x 2 Halv Rate
+60,8 x 4 Halv Rate
+61,Fartsbegrænsning
+62,Automatisk Billede Frekvens
+63,Tag Billede af Skærm
+64,Variabel Fartsgrænser
+65,Sæt Farten Op
+66,Sæt Farten Ned
+67,Genopret Korrekt Fart
+68,&Tillægsmoduler
+69,Ændre Tillægsmoduler...
+70,&Video Indstillinger...
+71,&Audio Indstillinger...
+72,&Input Indstillinger...
+73,RSP Indstillinger...
+74,Fuld Skærm
+75,Net Spil
+76,Forbind Til Kaillera Server ...
+77,Forsinkelser
+78,1 (mindre)
+79,2
+80,3
+81,4 (standart)
+82,5
+83,6
+84,7 (mere)
+85,&Hjælp
+86,Online Hjælp
+87,Offline Snydehjælp
+88,&1964 Hjemmeside
+89,GPL Information...
+90,Omkring Garanti...
+91,&Omkring 1964...
+92,Hent && Spil i Vindue
+95,Hent && Spil i Fuld Skærm
+96,Snydekoder...
+97,Ændre Rom Folder...
+98,ROM Indstillinger...
+99,Hoved Popop 1
+100,Vis Alternativt ROM Navn
+101,Vis Indre ROM Navn
+102,Vis ROM Fil Navn
+103,Sortere Stigende
+104,Sortere Faldende
+105,Tilføj/Fjern Kolonner...
+106,Hoved Popop 2
+107,Sortere Stigende
+108,Sortere Faldende
+109,Tilføj/Fjern Kolonner...
+110,ROM Tillægsmoduler Indstillinger...
+111,ROM Information...
+
+! Dialog boks tekst
+
+!ABOUTBOX
+!Næste linie skal ikke oversættes, "Dialog=n" er en programmerings nøgle linie
+Dialog=0
+0,\n1964 0.9.9 af schibo og Rice\nSnydekoder af  Emu64 Snyde Team\nOfficiel ROM_Properties.ini Fil af Duncan
+1,\n1964 har intet samarbejde med noget firma.\nAll logoer/handelsmærker er ejendome af de repræsenterede ejer(e).
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nTak: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nBeværtet af www.emulation64.com
+3,\nHilsner: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Omkring
+5,System Information
+6,SSE Optimeringer Slået Til?:
+7,Begrundelse:
+
+!CHEAT_HACK
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=1
+0,Brug Snydekoder
+1,Kode For Dette Spil
+2,Vælg
+3,Vælg Fra
+4,Vælg Alle
+5,Tilføj Ny Kode
+6,Navn
+7,Land:
+8,Tilføj/Ændre
+9,Slet
+10,Bemærkninger:
+
+!COL_SELECT
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=2
+0,Slå ROM Gennemser Til
+1,Spil Navn Der Vises
+2,Alternativt Navn
+3,Indre ROM Navn
+4,Rom Filnavn
+5,Kolonner Der Vises
+
+!CRITICAL_MESSAGE
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=3
+0,Luk Dette Vindue
+1,Fjern Besked
+
+
+
+!FOLDERS DIALOGEX
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=4
+0,ROMs
+1,Brug Den Sidst Åbnet Folder
+2,Gemte Spil
+3,Brug Standart: $1964.exe\\Gem
+4,Tillægsmoduler
+5,Brug Standart: $1964.exe\\Tillægsmoduler
+
+
+
+
+
+!OPTIONS
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=5
+0,Fil Menu Elementer
+1,Vis Tidligere ROM Foldere
+2,Hvor Mange?
+3,Vis Tidligere ROMs
+4,Hvor Mange?
+5,Vindues Opførsel
+6,Pause Når 1964 Vinduet Ikke Er Aktivt
+7,Start ROM I Fuld Skærm
+8,Vis Fejl Log Vindue
+9,Status Overvågning
+10,Tællere
+11,Profiler
+12,Slået Fra
+
+
+
+!PLUGINS
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=6
+0,Omkring
+1,Omkring
+2,Omkring
+3,Omkring
+4,&Download Tillægsmoduler Online
+5,Lyd
+6,Video
+7,RSP
+8,Input
+9,Vis Standart Tillægsmoduls Indstilling
+10,Vis ROM Tillægsmoduls Indstilling
+
+!REDISTRIB_DIALOG
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=8
+0,Filnavn:
+1,Rom Indre Navn:
+2,Land:
+3,Fil Lokalitet:
+
+
+
+!ROM_OPTIONS
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=9
+0,Hardware
+1,Udvidelses Pakke:
+2,Gem Type:
+3,Brug TLB:
+4,EEPROM Størrelse:
+5,Tæller Faktore:
+6,Max VI Grænse:
+7,Oversætter
+8,Kerne:
+9,DMA i Segments:
+10,Selv-Ændrings Kode:
+11,Overtage 32bit:
+12,Registrere Depot:
+13,CP1 Usædvanlige Undtagelser:
+14,Kode Blokke Kæde:
+15,To-Godkendelses Oversætter:
+16,Med Tillægsmoduler
+17,Billede Hukommelse R/W:
+18,RSP/RDP Tidsberegning:
+19,Alternative Titel (50 karakter max.):
+20,Bemærkninger (80 karakter max.)
+
+!UNAVAILABLE DIALOGEX
+!Oversæt ikke næste linie, "Dialog=n" er en programmerings nøgle linie
+Dialog=10
+0,Ikke Til Rådighed På Nuværende Tidspunkt.
+
+
+!Oversæt ikke næste linie, "String Section" er en programmerings nøgle linie
+String Section
+
+0,Snyde Koder
+1,Vindue
+2,Tillægsmoduler
+3,ROM Indstillinger
+4,ROM Gennemser
+5,ROM Information
+6,Folder
+7,Omkring 1964
+8,ROM Navn
+9,Land
+10,Størrelse
+11,Kompatibel Status
+12,Gem Type
+13,CIC Chip
+14,Spillere
+15,Åben ROM
+16,Vælg En ROM Folder
+17,Afslut
+18,Vinduet Kunne Ikke Håndteres.
+19,Hent Rom Indstillinger Fra ROM_Properties.ini
+20,Se Efter ROM Filer I ROM Folderen Og Lav En Liste
+21,Fejl
+22,CreateWindow() fejl: Kan Ikke Oprette Vindue.
+23,Kører
+24,Hentet
+25,Kaillera Spiller %d Udgået
+26,Gemmer Indstilling
+27,Henter Indstilling
+28,Indstillings Fil
+29,Alle Filer
+30,Vælg Folder For Gemte Spil
+31,Vælg Folder For Tillægsmodul
+32,Vælg Folder For ROM
+33,Stoppede
+34,Klar
+35,Henter RSP Modul:
+36,Igangsætter RSP Modul ...
+37,Henter Video Modul:
+38,Igangsætter Video Modul ...
+39,Henter Input Modul:
+40,Igangsætter Input Modul ...
+41,Henter Lyd Modul:
+42,Ikke Tilgænglig
+43,System Stardart Video Modul
+44,System Stardart Audio Modul
+45,System Stardart Input Modul
+46,System Stardart RSP Modul
+47,Video Tillægsmodul For Aktuel ROM
+48,Audio Tillægsmodul For Aktuel ROM
+49,Input Tillægsmodul For Aktuel ROM
+50,RSP Tillægsmodul For Aktuel ROM
+51,Fejl Ved Åbning Af Filen. Genopfrisk Venligst ROM Listen.
+52,Undtagelse I Denne Emulation
+53,Filen Kunne Ikke Åbnes.
+54,Denne Gemte Indstilling Virker Ikke Med Denne Version Af 1964.
+55,Versions Konflikt
+56,Henter
+57,Kaillera Timeout
+58,Opload Spil Indstillinger Til Andre Spillere
+59,Opload Snydekoder Til Andre Spillere
+60,Kaillera Starter Spillet
+61,Kaillera Venter 1 Sekund
+62,standart
+63,Standart
+64,Nej
+65,Ja
+66,Dyna-Oversætter
+67,Fortolker
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Første Brugt
+73,Alle Brugte Typer
+74,Ingen Tjek
+75,Thek Kun DMA
+76,Tjek DWORD
+77,Tjek QWORD
+78,Tjek QWORD & DMA
+79,Tjek Blokke
+80,Tjek Blokke & DMA
+81,Beskyt Hukommelse
+82,Ubegrænset
+83,Auto Synk
+84,No EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Alle Lande
+88,USA - NTSC
+89,Japan - NTSC
+90,USA & Japan - NTSC
+91,Europa - PAL
+92,Australien - PAL
+93,Frankrig - PAL
+94,Tyskland - PAL
+95,(landkode ikke genkendt)
+96,Opdatere ROM Gennemser...
+97,Alle Lande
+98,USA - NTSC
+99,Japan - NTSC
+100,Er Du Sikker På At Denne Kode Skal Slettes?
+101,Ingen Hardware Support Fundet
+102,Slået Fra I Denne Opbygning
+103,Hardware og OS Support Fundet
+104,Hardware Support, Men Ingen OS Support Fundet
+105,Brug Standart Indstilling
+106,Fuld Skærm (Alt+Enter)
+107,1964 Hjemmeside
+108,ROM Indstilling (Ctrl+S)
+109,Åben (Ctrl+O)
+110,Pause (F3)
+111,Afspil (F3)
+112,Stop (F4)
+113,Ændre Tillægsmoduler (Ctrl+P)
+114,Nulstil (F2)
+115,Online Hjælp (F1)
+116,Automatisk Billede Frekvens (F11)
+117,Fartsbegrænsning (F9)
+118,Automatisk CF Tids Justering  (F10)
+119,Tilføj Grøn Snydeknap (F8)
+120,Pauset
+121,Kerne
+122,Video
+123,Lyd
+124,Oversætter
+125,Afventer
+126,Netspil
+127,Kaillera
+128,Demo
+129,Beta
+130,USA/Japan
+131,Tyskland
+132,Frankrig
+133,Italien
+134,Japan
+135,Europa
+136,Spanien
+137,Australien
+
+

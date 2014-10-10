@@ -1,0 +1,410 @@
+! Lietuviø vertimas (Lithuanian language file)
+!
+!
+!    Iðvertë á lietuviø kalbà (translated to lithuanian by) WildSOfT, 12/17/2003
+!    Raðykite man á (contact me at) wildsoft@takas.lt
+!
+!    For file format information and other explanation, please refer to the readme.txt file.
+!    
+
+
+!Menu items, must be before dialog sections and string section
+
+1,&Failas
+2,&Atidaryti ROM'à...
+3,Uþdaryti ROM'à
+4,Kalba
+5,Anglø
+6,Saugoti bûsenà
+7,Á failà...
+8,Á Project64 uþsaugotos bûsenos failà...
+9,Á 1964.085 failà...
+10,Á vietà 0
+11,Á vietà 1
+12,Á vietà 2
+13,Á vietà 3
+14,Á vietà 4
+15,Á vietà 5
+16,Á vietà 6
+17,Á vietà 7
+18,Á vietà 8
+19,Á vietà 9
+20,Uþkrauti bûsenà
+21,Ið failo...
+22,Ið Project64 uþsaugotos bûsenos failo...
+23,Ið vietos 0
+24,Ið vietos 1
+25,Ið vietos 2
+26,Ið vietos 3
+27,Ið vietos 4
+28,Ið vietos 5
+29,Ið vietos 6
+30,Ið vietos 7
+31,Ið vietos 8
+32,Ið vietos 9
+33,Keisti ROM'ø aplankà...
+34,Atnaujinti ROM'ø sàraðà
+35,Pastarieji ROM'ø aplankai
+36,Pastarieji ROM'ai
+37,&Iðeiti
+
+38,&Redagavimas
+39,Cheat kodai...
+40,Lango galimybës...
+41,ROM'o savybës...
+
+42,E&muliacija
+43,&Pauzë/Paleisti/Tæsti
+44,Perkrauti
+45,&Stabdyti
+46,Nutraukti CPU gijà
+47,Perjungti kompiliatoriø
+48,Interpretatorius
+49,Dinaminis kompil. (nustatytas)
+50,Ávesti Gameshark þaliojo mygtuko Cheat'us
+51,Skaitiklio faktorius	
+52,Automatinis
+53,1 x .5 Pusë normos
+54,1 x 1 Pilna norma
+55,2 x 1 Pusë normos (nustatytas)
+56,2 x 2 Pilna norma
+57,3 x 1.5 Pusë normos
+58,3 x 3 Pilna norma
+59,4 x 2 Pusë normos
+60,8 x 4 Pusë normos
+61,Greièio ribojimas
+62,Automatinis kadrø praleidimas
+63,Ekrano nuotrauka
+64,Kintami greièio ribojimai
+65,Padidinti greitá
+66,Sumaþinti greitá
+67,Atstatyti teisingà greitá
+68,&Plugin'ai
+69,Keisti plugin'us...
+70,&Vaizdo nustatymai...
+71,&Garso nustatymai...
+72,&Ávesties nustatymai...
+73,RSP nustatymai...
+74,Per visà ekranà
+75,Þaidimas tinkle
+76,Prisijungti prie Kaillera darbinës stoties...
+77,Uþdelsimas
+78,1 (maþiau)
+79,2
+80,3
+81,4 (nustatytas)
+82,5
+83,6
+84,7 (daugiau)
+85,Pa&galba
+86,Pagalba tinkle
+87,Pagalbos knyga
+88,&1964 tinklapis
+89,GPL informacija...
+90,Apie garantijà...
+91,&Apie 1964...
+92,Uþkrauti && þaisti lange
+95,Uþkrauti && þaisti per visà ekranà
+96,Cheat kodai...
+97,Pakeisti ROM'ø aplankà...
+98,ROM'o savybës...
+99,Antraðtë 1
+100,Rodyti alternatyvø ROM'o pavadinimà
+101,Rodyti vidiná ROM'o pavadinimà
+102,Rodyti ROM'o failo pavadinimà
+103,Rûðiuoti didëjanèiai
+104,Rûðiuoti maþëjanèiai
+105,Áterpti/Iðimti stulpelius...
+106,Antraðtë 2
+107,Rûðiuoti didëjanèiai
+108,Rûðiuoti maþëjanèiai
+109,Áterpti/Iðimti stulpelius...
+110,ROM'o plugin'ø nustatymai...
+111,ROM'o informacija...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 sukûrë schibo ir Rice\nCheat kodus sukûrë Emu64 Cheat'ø komanda\nOficialø ROM_Properties.ini failà sukûrë Duncan
+1,\n1964 nëra susijæs su jokia kompanija.\nVisi logotipai ir prekiniai þenklai yra atitinkamø jø savininkø nuosavybë.
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nAèiû: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\ntalpinamas www.emulation64.com
+3,\nSveikinimai: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Apie
+5,Sistemos informacija
+6,Ájungtos SSE optimizacijos?:
+7,Prieþastis:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,Naudoti Cheat kodus
+1,Kodai ðiam þaidimui
+2,Pasirinkti
+3,Nepasirinkti
+4,Nepasir. nieko
+5,Naujo kodo ávedimas
+6,Pavadin.
+7,Ðalis:
+8,Pridëti/Keisti
+9,Trinti
+10,Past.:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,Ájungti ROM'ø narðyklæ
+1,Parodomas þaidimo pavadinimas
+2,Alternatyvus pavadinimas
+3,Vidinis ROM'o pavadinimas
+4,ROM'o failo pavadinimas
+5,Parodomi stulpeliai
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Uþdaryti ðá langà
+1,Iðvalyti praneðimus
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROM'ai
+1,Naudoti paskutiná atidarytà aplankà
+2,Þaidimo iðsaugojimai
+3,Naudoti nustatytà: $1964.exe\\Save
+4,Plugin'ai
+5,Naudoti nustatytà: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,Failo meniu punktai
+1,Rodyti pastaruosius ROM'ø aplankus
+2,Kiek?
+3,Rodyti pastaruosius ROM'us
+4,Kiek?
+5,Lango elgesys
+6,Pauzë, kai 1964 langas neaktyvus
+7,Paleisti ROM'à per visà ekranà
+8,Rodyti klaidø þurnalo langà
+9,Statuso eilutës monitoringas
+10,Skaitikliai
+11,Profaileris
+12,Iðjungta
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,Apie
+1,Apie
+2,Apie
+3,Apie
+4,Pa&rsisiøsti Plugin'us
+5,Garso
+6,Vaizdo
+7,RSP
+8,Ávesties
+9,Rodyti nustatytus plugin'ø nustatymus
+10,Rodyti ROM'o plugin'ø nustatymus
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,File name:
+1,Rom Internal Name:
+2,Country:
+3,File Location:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Áranga
+1,Iðplëtimas:
+2,Iðsaugojimo tipas:
+3,Naudoti TLB:
+4,EEPROM dydis:
+5,Skaitiklio faktorius:
+6,Max VI apribojimas:
+7,Kompiliatorius
+8,Branduolys:
+9,DMA segmentuose:
+10,Save mod. kodas:
+11,Laikyti 32bit:
+12,Registrø keðavimas:
+13,CP1 nenaudojamos iðimtys:
+14,Suriðti kodo blokus:
+15,2-kartinis kompiliatorius:
+16,Su plugin'ais
+17,Kadrø buferis S/R:
+18,RSP/RDP laikmatis:
+19,Alternatyvus pavadinimas (max. 50 simboliø):
+20,Comments (80 characters max.)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,Ðiuo metu negalima.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,Cheat kodai
+1,Langas
+2,Plugin'ai
+3,ROM'o savybës
+4,ROM'ø narðyklë
+5,ROM'o informacija
+6,Aplankai
+7,Apie 1964
+8,ROM'o pavadinimas
+9,Ðalis
+10,Dydis
+11,Suderinamumo statusas
+12,Iðsaugojimo tipas
+13,CIC èipas
+14,Þaidëjø
+15,Atidaryti ROM'à
+16,Pasirinkti ROM'ø aplankà
+17,Iðeiti
+18,Negaliu gauti langø valdymo.
+19,Uþkrauti ROM'ø nustatymus ið ROM_Properties.ini
+20,Ieðkau ROM failø ROM'ø aplanke ir generuoju sàraðà
+21,Klaida
+22,CreateWindow() klaida: Negaliu sukurti lango.
+23,Vykdoma
+24,Uþkrauta
+25,Kaillera þaidëjas %d prarastas
+26,Saugoma bûsena
+27,Uþkraunama bûsena
+28,Bûsenos failas
+29,Visi failai
+30,Pasirinkti þaidimø bûsenø iðsaugojimo aplankà
+31,Pasirinkti Plugin'ø aplankà
+32,Pasirinkti ROM'ø aplankà
+33,Sustabdyta
+34,Pasiruoðæs
+35,Uþkraunamas RSP plugin'as:
+36,Inicializuojamas RSP plugin'as ...
+37,Uþkraunamas vaizdo plugin'as:
+38,Inicializuojamas vaizdo plugin'as ...
+39,Uþkraunamas ávesties plugin'as:
+40,Inicializuojamas ávesties plugin'as ...
+41,Uþkraunamas garso pluginas:
+42,neprieinamas
+43,Sistemos nustatytas vaizdo plugin'as
+44,Sistemos nustatytas garso plugin'as
+45,Sistemos nustatytas ávesties plugin'as
+46,Sistemos nustatytas RSP plugin'as
+47,Vaizdo plugin'as einamajam ROM'ui
+48,Garso plugin'as einamajam ROM'ui
+49,Ávesties plugin'as einamajam ROM'ui
+50,RSP plugin'as einamajam ROM'ui
+51,Klaida, atidarant ðá failà. Praðome atnaujinti ROM'ø sàraðà.
+52,Iðimtis emuliacijos gyjoje
+53,Negaliu atidaryti failo.
+54,This savestate is incompatible with this version of 1964.
+55,Versijø konfliktas
+56,Uþkraunama
+57,Kaillera timeout'as
+58,Nusiøsti þaidimo nustatymus kitiems þaidëjams
+59,Nusiøsti cheat kodus kitiems þaidëjams
+60,Kaillera pradeda þaidimà
+61,Kaillera laukia 1 sekundæ
+62,nustatytas
+63,Nustatytas
+64,Ne
+65,Taip
+66,Dinaminis kompil.
+67,Interpretatorius
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,Pirmas panaudotas
+73,Visi naudojami tipai
+74,Be tikrinimo
+75,Tikrinti tik DMA
+76,Tikrinti DWORD
+77,Tikrinti QWORD
+78,Tikrinti QWORD ir DMA
+79,Tikrinti blokà
+80,Tikrinti blokà ir DMA
+81,Apsaugoti atmintá
+82,Be ribø
+83,Auto sinchr.
+84,Be EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Visos ðalys
+88,JAV - NTSC
+89,Japonija - NTSC
+90,JAV ir Japonija - NTSC
+91,Europa - PAL
+92,Australija - PAL
+93,Prancûzija - PAL
+94,Vokietija - PAL
+95,(ðalies kodo nesutapimas)
+96,Atnaujinama ROM'ø narðyklë...
+97,Visos ðalys
+98,JAV - NTSC
+99,Japonija - NTSC
+100,Ar tikrai norite iðtrinti ðá kodà?
+101,Neaptikta palaikanèiø árenginiø
+102,Atjungta ðioje versijoje
+103,Aptiktas árangos ir OS palaikymas
+104,Aptiktas árangos palaikymas, bet nëra OS palaikymo
+105,Naudoti sistemos nustatytus nustatymus
+106,Per visà ekranà (Alt+Enter)
+107,1964 tinklapis
+108,ROM'o savybës (Ctrl+S)
+109,Atidaryti (Ctrl+O)
+110,Pauzë (F3)
+111,Þaisti (F3)
+112,Sustabdyti (F4)
+113,Pakeisti plugin'us (Ctrl+P)
+114,Perkrauti (F2)
+115,Pagalba (F1)
+116,Automatinis kadrø praleidimas (F11)
+117,Greièio ribojimas (F9)
+118,Automatinis CF reguliavimas (F10)
+119,Ávesti þalio mygtuko cheat'à (F8)
+120,Pauzë
+121,branduolys
+122,vaizdas
+123,garsas
+124,kompiliatorius
+125,laukimas
+126,þaidimas tinkle
+127,kaillera
+128,Demo
+129,Beta
+130,JAV/Japan
+131,Vokietija
+132,Prancûzija
+133,Italija
+134,Japonija
+135,Europa
+136,Ispanija
+137,Australija
+
+

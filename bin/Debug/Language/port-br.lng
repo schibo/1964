@@ -1,0 +1,417 @@
+!    Portuguese (Brasil) PROVISORY language file - while Nighty0's not ready!
+!    by Dee Dark (Dario Matos)
+!
+!    Created by Rice, 12/08/2003
+!    For further questions, email me at rice1964@yahoo.com
+!
+!    For file format information and other explanation, please refer to the readme.txt file.
+!    
+!    Arquivo de Tradução PROVISÓRIO do 1964 para Português (Brasil)
+!    - enquanto aguardamos a versão final do Nighty0! -
+!    por Dee Dark (Dario Matos)
+!    
+!    Eu dei uma espiada na tradução do _Oz_ (tiagocsg@hotmail.com) para Português (Portugal),
+!    então registro aqui meus agradecimentos a ele e ao Nighty0... Valeu!
+!
+
+
+!Menu items, must be before dialog sections and string section
+
+1,&Arquivo
+2,&Abrir ROM...
+3,Fechar ROM
+4,Idioma
+5,English
+6,Salvar jogo
+7,Para o arquivo...
+8,Para o arquivo de jogo do Project64...
+9,Para o arquivo 1964.085...
+10,Para o Slot 0
+11,Para o Slot 1
+12,Para o Slot 2
+13,Para o Slot 3
+14,Para o Slot 4
+15,Para o Slot 5
+16,Para o Slot 6
+17,Para o Slot 7
+18,Para o Slot 8
+19,Para o Slot 9
+20,Carregar jogo
+21,Do arquivo...
+22,Do arquivo de jogo do Project64...
+23,Do Slot 0
+24,Do Slot 1
+25,Do Slot 2
+26,Do Slot 3
+27,Do Slot 4
+28,Do Slot 5
+29,Do Slot 6
+30,Do Slot 7
+31,Do Slot 8
+32,Do Slot 9
+33,Mudar a pasta de ROMs...
+34,Atualizar lista de ROMs
+35,Últimas pastas de ROMs 
+36,Últimos ROMs
+37,S&air
+
+38,&Editar
+39,Cheats...
+40,Opções de janela...
+41,Propriedades da ROM...
+
+42,E&mulação
+43,&Pausar/Rodar
+44,Reset
+45,&Parar
+46,Eliminar tarefa da CPU
+47,Trocar Compilador
+48,Interpreter
+49,Dynamic Compiler (Padrão)
+50,Inserir Códigos do Gameshark
+51,Counter Factor	
+52,Automático
+53,1 x .5 Half Rate
+54,1 x 1 Full Rate
+55,2 x 1 Half Rate (Padrão)
+56,2 x 2 Full Rate
+57,3 x 1.5 Half Rate
+58,3 x 3 Full Rate
+59,4 x 2 Half Rate
+60,8 x 4 Half Rate
+61,Limitador de velocidade
+62,Frame Skip Automático
+63,Screen Shot
+64,Limites de velocidade variáveis
+65,Aumentar velocidade
+66,Diminuir velocidade
+67,Restaurar velocidade correta
+68,&Plug-ins
+69,Mudar Plug-ins...
+70,&Configurações de Vídeo...
+71,&Configurações de Áudio...
+72,&Configurações de Controle...
+73,Configuraçções de RSP...
+74,Tela cheia
+75,Net Play
+76,Conectar a Servidor do Kaillera...
+77,Lag
+78,1 (menor)
+79,2
+80,3
+81,4 (padrão)
+82,5
+83,6
+84,7 (maior)
+85,&Ajuda
+86,Ajuda Online
+87,Ajuda offline das Cheats
+88,&Página do 1964
+89,Sobre a GPL...
+90,Sobre a garantia......
+91,&Sobre o 1964...
+92,Carregar & rodar em janela
+95,Carregar & rodar em tela cheia
+96,Cheats...
+97,Mudar pasta de ROMs...
+98,Propriedades da ROM...
+99,Header Popup 1
+100,Mostrar nome alternativo da ROM
+101,Mostror o nome interno da ROM
+102,Mostrar o nome de arquivo da ROM
+103,Ordem ascendente
+104,Ordem descendente
+105,Adicionar/Remover colunas...
+106,Cabeçalho
+107,Ordem ascendente
+108,Ordem descendente
+109,Adicionar/Remover colunas...
+110,Configurações de Plug-in da ROM...
+111,Informação da ROM...
+
+! Dialog box texts
+
+!ABOUTBOX
+
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=0
+0,\n1964 0.9.9 por schibo e Rice\nCheats por Emu64 Cheats Team\nArquivo ROM_Properties.ini oficial por Duncan
+1,\n1964 não é afiliado a nenhuma empresa.\nTodos os logotipos e marcas registradas pertencem a seus respectivos proprietários
+2,\n (c) 1999-2003 Joel Middendorf <schibo@emulation64.com>\nAgradecimentos especiais a: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nHospedado em www.emulation64.com
+3,\nAgradecimentos: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe
+4,Sobre o 1964...
+5,Informação do sistema
+6,Ativar otimizações SSE ?:
+7,Motivo:
+
+!CHEAT_HACK
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=1
+0,Usar Cheats
+1,Códigos para este jogo
+2,Marcar
+3,Desmarcar
+4,Desmarcar todas
+5,Enter New Code
+6,Nome
+7,País:
+8,Adicionar/Modicar
+9,Deletar
+10,Notas:
+
+!COL_SELECT
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=2
+0,Ativar Browser de ROMs
+1,Nome de jogo a mostrar
+2,Nome alternativo
+3,Nome interno da ROM
+4,Nome de arquivo da ROM
+5,Colunas a mostrar
+
+!CRITICAL_MESSAGE
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=3
+0,Fechar janela
+1,Limpar mensagens
+
+
+
+!FOLDERS DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=4
+0,ROMs
+1,Use a última pasta aberta
+2,Pasta de jogos salvos
+3,Usar padrão: $1964.exe\\Save
+4,Pasta de Plug-ins
+5,Usar padrão: $1964.exe\\Plugin
+
+
+
+
+
+!OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=5
+0,File Menu Items
+1,Mostrar últimas pastas de ROMs
+2,Quantas?
+3,Mostrar Últimas ROMs
+4,Quantas?
+5,Comportamento da janela
+6,Pausar quando a janela do 1964 estiver inativa
+7,Emular ROM em Tela Cheia
+8,Mostrar janela de Registro de Erros 
+9,Monitor da barra de status
+10,Contadores
+11,Perfil
+12,Desativado
+
+
+
+!PLUGINS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=6
+0,Sobre
+1,Sobre
+2,Sobre
+3,Sobre
+4,&Baixar Plug-ins Online
+5,Áudio
+6,Vídeo
+7,RSP
+8,Controle (Input)
+9,Mostrar configuração padrão do plug-in
+10,Mostrar configurações para a ROM do plug-in
+
+!REDISTRIB_DIALOG
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=7
+0,&OK
+
+
+!ROM_INFO
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=8
+0,Nome de arquivo:
+1,Nome interno da ROM:
+2,País:
+3,Local do arquivo:
+
+
+
+!ROM_OPTIONS
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=9
+0,Hardware
+1,Expansion Pak:
+2,Tipo de Memória:
+3,Usar TLB:
+4,Tamanho da EEPROM:
+5,Counter Factor:
+6,Limite Máximo VI:
+7,Compilador
+8,Núcleo:
+9,DMA em segmentos:
+10,Self-Modifying Code:
+11,Assumir 32bit:
+12,Registrar Caching:
+13,Exceções inúteis de CP1:
+14,Link Code Blocks:
+15,Compilador em dois passos:
+16,Com plug-ins
+17,Frame Buffer R/W:
+18,RSP/RDP Timing:
+19,Título alternativo (50 characters max.):
+20,Comentários (80 characters max.)
+
+!UNAVAILABLE DIALOGEX
+!Don't translate the next line, the "Dialog=n" line is a key line
+Dialog=10
+0,Ainda não disponível.
+
+
+!Don't translate the next line, the "String Section" is a key
+String Section
+
+0,Cheats
+1,Janela
+2,Plug-ins
+3,Propriedades da ROM
+4,Browser de ROMs
+5,Informação sobre a ROM
+6,Pastas
+7,Sobre o 1964...
+8,Nome da ROM
+9,País
+10,Tamanho
+11,Status de compatibilidade
+12,Tipo de Memória
+13,CIC Chip
+14,Jogadores
+15,Abrir ROM
+16,Selecionar pasta de ROMs
+17,Sair
+18,Não foi possível atualizar a janela.
+19,Carregar configuração de Rom do ROM_Properties.ini
+20,Procurando por ROMs na pasta de ROMs e gerar lista
+21,Erro
+22,Falha - CreateWindow(): Não foi possível criar janela.
+23,Rodando
+24,Carregado
+25,Kaillera player %d dropped
+26,Salvando jogo
+27,Carregando jogo
+28,Arquivo de jogos salvos
+29,Todos os arquivos
+30,Selecionar pasta de jogos salvos
+31,Selecionar pasta de Plug-ins
+32,Selecionar pasta de ROMs
+33,Parado
+34,Pronto
+35,Carregando Plug-in de RSP:
+36,Inicializar Plug-in de RSP...
+37,Carregando Plug-in de Vídeo:
+38,Inicializar Plug-in de Vídeo...
+39,Carregando Plug-in do Controle:
+40,Inicializar Plug-in do Controle...
+41,Carregando Plug-in de Áudio:
+42,não disponível
+43,Plug-in de Vídeo padrão
+44,Plug-in de Áudio padrão
+45,Plug-in do Controle padrão
+46,Plug-in de RSP padrão
+47,Plug-in de Vídeo para a ROM atual
+48,Plug-in de áudio para a ROM atual
+49,Plug-in do Controle para a ROM atual
+50,Plug-in de RSP para a ROM atual
+51,Erro ao abrir este arquivo. Favor atualizar a lista de ROMs.
+52,Exceção ocorrida na emulação thread
+53,O arquivo não pôde ser aberto.
+54,Este jogo salvo é incompatível com esta versão do 1964.
+55,Conflito de versões
+56,Carregando
+57,Kaillera - timeout
+58,Upload das configurações do jogo para os outros jogadores
+59,Upload de cheats para os outros jogadores
+60,Kaillera - começa o jogo
+61,Kaillera - aguardar por 1 seg
+62,padrão
+63,Padrão
+64,Não
+65,Sim
+66,Dyna-Compiler
+67,Interpreter
+68,EEPROM
+69,MEMPAK
+70,SRAM
+71,FLASHRAM
+72,O primeiro usado
+73,Todos os tipos usados
+74,Não verificar
+75,Verificar só DMA
+76,Verificar DWORD
+77,Verificar QWORD
+78,Verificar QWORD & DMA
+79,Verificar Bloco
+80,Verificar Bloco & DMA
+81,Proteger Memória
+82,Sem limite
+83,Sincronismo automático
+84,Sem EEPROM
+85,4Kb EEPROM
+86,16Kb EEPROM
+87,Todos os países
+88,EUA - NTSC
+89,Japão - NTSC
+90,EUA & Japão - NTSC
+91,Europa - PAL
+92,Austrália - PAL
+93,França - PAL
+94,Alemanha - PAL
+95,(country code não bate)
+96,Atualizando Browser de ROMs...
+97,Todos os países
+98,EUA - NTSC
+99,Japão - NTSC
+100,Deseja mesmo apagar este código?
+101,Não foi detectado Hardware Support
+102,Desabilitado nesta versão
+103,Hardware & OS Support Detectados
+104,Hardware Support, mas não foi detectado OS Support
+105,Usar configuração padrão do sistema
+106,Tela cheia (Alt+Enter)
+107,Página do 1964
+108,Propriedades da ROM (Ctrl+S)
+109,Abrir (Ctrl+O)
+110,Pausar (F3)
+111,Rodar (F3)
+112,Parar (F4)
+113,Mudar Plug-ins (Ctrl+P)
+114,Reset (F2)
+115,Ajuda Online (F1)
+116,Frame Skip Automático (F11)
+117,Limite de velocidade (F9)
+118,Ajuste automático de CF Timing (F10)
+119,Ativar botão de Cheats (F8)
+120,Pausado
+121,núcleo
+122,vídeo
+123,áudio
+124,compilador
+125,em espera
+126,netplay
+127,kaillera
+128,Demo
+129,Beta
+130,EUA/Japão
+131,Alemanha
+132,França
+133,Itália
+134,Japão
+135,Europa
+136,Espanha
+137,Austrália
+
+
