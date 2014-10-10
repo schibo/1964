@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "1964"
+            VALUE "FileDescription", "1964 Input Plugin"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "1964Input"
+            VALUE "LegalTrademarks", "1964"
+            VALUE "OriginalFilename", "1964Input.DLL"
+            VALUE "PrivateBuild", "17"
+            VALUE "ProductName", "1964Input"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GUI DIALOGEX 0, 0, 440, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "1964Input - Joystick Setting"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "^",IDC_BUTTON_STICK_UP,213,44,24,12
+    LTEXT           "",IDC_LABEL_STICK_UP,240,44,30,12,SS_SUNKEN
+    PUSHBUTTON      "v",IDC_BUTTON_STICK_DOWN,213,82,24,12
+    LTEXT           "",IDC_LABEL_STICK_DOWN,240,82,30,12,SS_SUNKEN
+    PUSHBUTTON      "<",IDC_BUTTON_STICK_LEFT,199,63,24,12
+    LTEXT           "",IDC_LABEL_STICK_LEFT,166,63,30,12,SS_SUNKEN
+    PUSHBUTTON      ">",IDC_BUTTON_STICK_RIGHT,230,63,24,12
+    LTEXT           "",IDC_LABEL_STICK_RIGHT,257,63,30,12,SS_SUNKEN
+    PUSHBUTTON      "^",IDC_BUTTON_PAD_UP,62,44,24,12
+    LTEXT           "",IDC_LABEL_PAD_UP,89,44,30,12,SS_SUNKEN
+    PUSHBUTTON      "v",IDC_BUTTON_PAD_DOWN,62,82,24,12
+    LTEXT           "",IDC_LABEL_PAD_DOWN,89,82,30,12,SS_SUNKEN
+    PUSHBUTTON      "<",IDC_BUTTON_PAD_LEFT,47,63,24,12
+    LTEXT           "",IDC_LABEL_PAD_LEFT,14,63,30,12,SS_SUNKEN
+    PUSHBUTTON      ">",IDC_BUTTON_PAD_RIGHT,78,63,24,12
+    LTEXT           "",IDC_LABEL_PAD_RIGHT,105,63,30,12,SS_SUNKEN
+    PUSHBUTTON      "A",IDC_BUTTON_A,306,110,64,12
+    LTEXT           "",IDC_LABEL_A,381,110,52,12,SS_SUNKEN
+    PUSHBUTTON      "B",IDC_BUTTON_B,306,128,64,12
+    LTEXT           "",IDC_LABEL_B,381,128,52,12,SS_SUNKEN
+    PUSHBUTTON      "Start",IDC_BUTTON_START,13,146,64,12
+    LTEXT           "",IDC_LABEL_START,81,146,52,12,SS_SUNKEN
+    LTEXT           "X-Stick",IDC_AXIS_X_LABEL,165,104,27,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_STICK_X,197,103,93,63,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Smooth Y",IDC_CHECK_SMOOTHY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,155,82,47,12
+    LTEXT           "Y-Stick",IDC_AXIS_Y_LABEL,165,120,27,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_STICK_Y,197,119,93,69,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Smooth X",IDC_CHECK_SMOOTHX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,155,45,47,10
+    PUSHBUTTON      "^",IDC_BUTTON_C_UP,359,44,24,12
+    LTEXT           "",IDC_LABEL_C_UP,386,44,30,12,SS_SUNKEN
+    PUSHBUTTON      "v",IDC_BUTTON_C_DOWN,359,82,24,12
+    LTEXT           "",IDC_LABEL_C_DOWN,386,82,30,12,SS_SUNKEN
+    PUSHBUTTON      "<",IDC_BUTTON_C_LEFT,343,63,24,12
+    LTEXT           "",IDC_LABEL_C_LEFT,311,63,30,12,SS_SUNKEN
+    PUSHBUTTON      ">",IDC_BUTTON_C_RIGHT,373,63,24,12
+    LTEXT           "",IDC_LABEL_C_RIGHT,400,63,30,12,SS_SUNKEN
+    PUSHBUTTON      "Trigger Z",IDC_BUTTON_TRIGGER_Z,306,146,64,12
+    LTEXT           "",IDC_LABEL_TRIGGER_Z,381,146,52,12,SS_SUNKEN
+    PUSHBUTTON      "Trigger Left",IDC_BUTTON_TRIGGER_LEFT,13,110,64,12
+    LTEXT           "",IDC_LABEL_TRIGGER_LEFT,81,110,52,12,SS_SUNKEN
+    PUSHBUTTON      "Trigger Right",IDC_BUTTON_TRIGGER_RIGHT,13,128,64,12
+    LTEXT           "",IDC_LABEL_TRIGGER_RIGHT,81,128,52,12,SS_SUNKEN
+    DEFPUSHBUTTON   "&Close",IDOK,379,9,48,16
+    PUSHBUTTON      "Defaults Button Setting",IDC_BUTTON_DEFAULT,169,143,105,
+                    16
+    GROUPBOX        "D-Pad",IDC_STATIC,7,33,137,68,BS_LEFT
+    GROUPBOX        "Analog Stick",IDC_STATIC,149,33,148,103,BS_CENTER
+    GROUPBOX        "C-Pad",IDC_STATIC,305,33,131,69,BS_LEFT
+    COMBOBOX        IDC_N64_CONTROLLER,58,11,101,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "N64 Controller:",IDC_STATIC,8,13,48,8
+    LTEXT           "Devices:",IDC_STATIC,202,13,29,8
+    COMBOBOX        IDC_DEVICES,235,11,135,73,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GUI, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 437
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_VERSION             "1964 Input version 1.0"
+    IDS_VERSION_DEBUG       "1964 Input version 1.0 Debug"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

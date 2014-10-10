@@ -1,0 +1,21 @@
+This is the final build of 1964 099 before the conversion to JAVA.
+Only the release configuration builds.
+Converted to Visual Studio 2008.
+Set Emu1964Dir environment variable for output files built by Visual Studio.
+An archive of the 1964 distribution is in bin/release.
+
+
+Bugs
+=====
+
+- "g_Render is NULL" error on Reset ROM.
+- While in Full screen - cannot close rom without 1964 freeze.
+- Can't go into full screen in Super Smash Brothers
+
+
+What's New
+==========
+Brand new audio plugin built from the ground up. MusyX games are supported!
+Hydro Thunder, Gauntlet Legends, Tarzan, The World is Not Enough, San Francisco RUSH 2049, and Rugrats in Paris.
+Fixed losing audio problems.
+

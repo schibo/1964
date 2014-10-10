@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows 8
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1964.exe", "..\..\core\1964.exe.vcxproj", "{02CE71AA-51C0-4786-9CB4-076C60D021A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1964Input", "..\..\1964Input\1964Input.vcxproj", "{B0290350-0E89-4880-8367-6BB5F111104C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1964Video", "..\..\1964Video\1964Video.vcxproj", "{1120AACC-8C31-486A-A9B8-0568DFF718F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1964audio", "..\..\RSP\1964AudioLLE\make\1964audio.vcxproj", "{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug w Opt|Win32 = Debug w Opt|Win32
+		Debug|Win32 = Debug|Win32
+		Release Not Optimized|Win32 = Release Not Optimized|Win32
+		Release Opcode Debugger|Win32 = Release Opcode Debugger|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug w Opt|Win32.ActiveCfg = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug w Opt|Win32.Build.0 = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug|Win32.Build.0 = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Not Optimized|Win32.ActiveCfg = Release Not Optimized|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Not Optimized|Win32.Build.0 = Release Not Optimized|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Opcode Debugger|Win32.ActiveCfg = Release Opcode Debugger|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Opcode Debugger|Win32.Build.0 = Release Opcode Debugger|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release|Win32.ActiveCfg = Release|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release|Win32.Build.0 = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Debug w Opt|Win32.ActiveCfg = Debug|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Debug w Opt|Win32.Build.0 = Debug|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Debug|Win32.Build.0 = Debug|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release Not Optimized|Win32.ActiveCfg = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release Not Optimized|Win32.Build.0 = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release Opcode Debugger|Win32.ActiveCfg = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release Opcode Debugger|Win32.Build.0 = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release|Win32.ActiveCfg = Release|Win32
+		{B0290350-0E89-4880-8367-6BB5F111104C}.Release|Win32.Build.0 = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Debug w Opt|Win32.ActiveCfg = Debug|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Debug w Opt|Win32.Build.0 = Debug|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Debug|Win32.Build.0 = Debug|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release Not Optimized|Win32.ActiveCfg = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release Not Optimized|Win32.Build.0 = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release Opcode Debugger|Win32.ActiveCfg = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release Opcode Debugger|Win32.Build.0 = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release|Win32.ActiveCfg = Release|Win32
+		{1120AACC-8C31-486A-A9B8-0568DFF718F4}.Release|Win32.Build.0 = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Debug w Opt|Win32.ActiveCfg = Debug w Opt|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Debug w Opt|Win32.Build.0 = Debug w Opt|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Debug|Win32.Build.0 = Debug|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release Not Optimized|Win32.ActiveCfg = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release Not Optimized|Win32.Build.0 = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release Opcode Debugger|Win32.ActiveCfg = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release Opcode Debugger|Win32.Build.0 = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release|Win32.ActiveCfg = Release|Win32
+		{AF7986E3-9C5A-4247-B6B0-63E6BE58AAD3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

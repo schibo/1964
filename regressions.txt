@@ -1,0 +1,1 @@
+p_gMemoryState -> when not 0x20000000, pointer is wrong. fix.

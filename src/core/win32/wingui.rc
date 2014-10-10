@@ -1,0 +1,2104 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "1964.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+WINGUI_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open ROM...\tCtrl+O",        ID_OPENROM
+        MENUITEM "Close ROM",                   ID_CLOSEROM, GRAYED
+        MENUITEM SEPARATOR
+        POPUP "Language"
+        BEGIN
+            MENUITEM "English",                     ID_LANGUAGE_ENGLISH
+            , CHECKED
+            MENUITEM SEPARATOR
+        END
+        MENUITEM SEPARATOR
+        POPUP "Save State"
+        BEGIN
+            MENUITEM "To File...\tCtrl+F5",         ID_SAVESTATE, GRAYED
+            MENUITEM "To  Project64 Save State File...", 
+                                                    ID_CPU_EXPORTPJ64STATE
+            , GRAYED
+            MENUITEM "To 1964.085 File...",         ID_SAVE_1964085, GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "To Slot 0",                   ID_SAVE_STATE_0
+            , CHECKED, GRAYED
+            MENUITEM "To Slot 1",                   ID_SAVE_STATE_1, GRAYED
+            MENUITEM "To Slot 2",                   ID_SAVE_STATE_2, GRAYED
+            MENUITEM "To Slot 3",                   ID_SAVE_STATE_3, GRAYED
+            MENUITEM "To Slot 4\tF5",               ID_SAVE_STATE_4, GRAYED
+            MENUITEM "To Slot 5",                   ID_SAVE_STATE_5, GRAYED
+            MENUITEM "To Slot 6",                   ID_SAVE_STATE_6, GRAYED
+            MENUITEM "To Slot 7",                   ID_SAVE_STATE_7, GRAYED
+            MENUITEM "To Slot 8",                   ID_SAVE_STATE_8, GRAYED
+            MENUITEM "To Slot 9",                   ID_SAVE_STATE_9, GRAYED
+        END
+        POPUP "Load State"
+        BEGIN
+            MENUITEM "From File...\tCtrl+F7",       ID_LOADSTATE, GRAYED
+            MENUITEM "From Project64 Save State File...", 
+                                                    ID_CPU_IMPORTPJ64STATE
+            , GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "From Slot 0",                 ID_LOAD_STATE_0
+            , CHECKED, GRAYED
+            MENUITEM "From Slot 1",                 ID_LOAD_STATE_1, GRAYED
+            MENUITEM "From Slot 2",                 ID_LOAD_STATE_2, GRAYED
+            MENUITEM "From Slot 3",                 ID_LOAD_STATE_3, GRAYED
+            MENUITEM "From Slot 4\tF7",             ID_LOAD_STATE_4, GRAYED
+            MENUITEM "From Slot 5",                 ID_LOAD_STATE_5, GRAYED
+            MENUITEM "From Slot 6",                 ID_LOAD_STATE_6, GRAYED
+            MENUITEM "From Slot 7",                 ID_LOAD_STATE_7, GRAYED
+            MENUITEM "From Slot 8",                 ID_LOAD_STATE_8, GRAYED
+            MENUITEM "From Slot 9",                 ID_LOAD_STATE_9, GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Change ROM Folder...\tCtrl+D", ID_CHANGEDIRECTORY
+        MENUITEM "Refresh ROM List\tCtrl+L",    ID_FILE_FRESHROMLIST
+        POPUP "Recent ROM Folders"
+        BEGIN
+            MENUITEM "Rom Folder 1",                ID_FILE_ROMDIRECTORY1
+            MENUITEM "Rom Folder 2",                ID_FILE_ROMDIRECTORY2
+            MENUITEM "Rom Folder 3",                ID_FILE_ROMDIRECTORY3
+            MENUITEM "Rom Folder 4",                ID_FILE_ROMDIRECTORY4
+            MENUITEM "Rom Folder 5",                ID_FILE_ROMDIRECTORY5
+            MENUITEM "Rom Folder 6",                ID_FILE_ROMDIRECTORY6
+            MENUITEM "Rom Folder 7",                ID_FILE_ROMDIRECTORY7
+            MENUITEM "Rom Folder 8",                ID_FILE_ROMDIRECTORY8
+            MENUITEM "Rom Folder 9",                ID_FILE_ROMDIRECTORY9
+            MENUITEM "Rom Folder 10",               ID_FILE_ROMDIRECTORY10
+            MENUITEM "Rom Folder 11",               ID_FILE_ROMDIRECTORY11
+            MENUITEM "Rom Folder 12",               ID_FILE_ROMDIRECTORY12
+            MENUITEM "Rom Folder 13",               ID_FILE_ROMDIRECTORY13
+            MENUITEM "Rom Folder 14",               ID_FILE_ROMDIRECTORY14
+            MENUITEM "Rom Folder 15",               ID_FILE_ROMDIRECTORY15
+            MENUITEM "Rom Folder 16",               ID_FILE_ROMDIRECTORY16
+        END
+        POPUP "Recent ROMs"
+        BEGIN
+            MENUITEM "Game 1",                      ID_FILE_RECENTGAMES_GAME1
+
+            MENUITEM "Game 2",                      ID_FILE_RECENTGAMES_GAME2
+
+            MENUITEM "Game 3",                      ID_FILE_RECENTGAMES_GAME3
+
+            MENUITEM "Game 4",                      ID_FILE_RECENTGAMES_GAME4
+
+            MENUITEM "Game 5",                      ID_FILE_RECENTGAMES_GAME5
+
+            MENUITEM "Game 6",                      ID_FILE_RECENTGAMES_GAME6
+
+            MENUITEM "Game 7",                      ID_FILE_RECENTGAMES_GAME7
+
+            MENUITEM "Game 8",                      ID_FILE_RECENTGAMES_GAME8
+
+            MENUITEM "Game 9",                      ID_FILE_RECENTGAMES_GAME9
+
+            MENUITEM "Game 10",                     ID_FILE_RECENTGAMES_GAME10
+
+            MENUITEM "Game 11",                     ID_FILE_RECENTGAMES_GAME11
+
+            MENUITEM "Game 12",                     ID_FILE_RECENTGAMES_GAME12
+
+            MENUITEM "Game 13",                     ID_FILE_RECENTGAMES_GAME13
+
+            MENUITEM "Game 14",                     ID_FILE_RECENTGAMES_GAME14
+
+            MENUITEM "Game 15",                     ID_FILE_RECENTGAMES_GAME15
+
+            MENUITEM "Game 16",                     ID_FILE_RECENTGAMES_GAME16
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cheat Codes...\tCtrl+C",      ID_FILE_CHEAT
+        MENUITEM "Window Options...\tCtrl+W",   ID_PREFERENCE_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "ROM Properties...\tCtrl+S",   ID_FILE_ROMINFO, GRAYED
+    END
+    POPUP "E&mulation"
+    BEGIN
+        MENUITEM "&Pause/Play\tF3",             ID_ROM_PAUSE, GRAYED
+        MENUITEM "Reset\tF2",                   ID_ROM_START, GRAYED
+        MENUITEM "&Stop\tF4",                   ID_ROM_STOP, GRAYED
+        MENUITEM "Kill CPU Thread\tCtrl+F4",    ID_CPU_KILL, GRAYED
+        MENUITEM SEPARATOR
+        POPUP "Switch Compiler"
+        BEGIN
+            MENUITEM "Interpreter",                 ID_INTERPRETER, GRAYED
+            MENUITEM "Dynamic Compiler (Default)",  ID_DYNAMICCOMPILER
+            , CHECKED, GRAYED
+        END
+        MENUITEM "Inject Gameshark Green Button Cheats\tF8", ID_CHEATS_APPLY
+        , GRAYED
+        MENUITEM SEPARATOR
+        POPUP "Counter Factor"
+        BEGIN
+            MENUITEM "Automatic\tF10",              ID_EMULATION_AUTOCFTIMING
+            , CHECKED
+            MENUITEM SEPARATOR
+            MENUITEM "1 x .5 Half Rate\tCtrl+1",    ID_CF_CF1, GRAYED
+            MENUITEM "1 x 1 Full Rate\tCtrl+2",     ID_CF_CF2, GRAYED
+            MENUITEM "2 x 1 Half Rate (Default)\tCtrl+3", ID_CF_CF3
+            , CHECKED, GRAYED
+            MENUITEM "2 x 2 Full Rate\tCtrl+4",     ID_CF_CF4, GRAYED
+            MENUITEM "3 x 1.5 Half Rate\tCtrl+5",   ID_CF_CF5, GRAYED
+            MENUITEM "3 x 3 Full Rate\tCtrl+6",     ID_CF_CF6, GRAYED
+            MENUITEM "4 x 2 Half Rate\tCtrl+7",     ID_CF_CF7, GRAYED
+            MENUITEM "8 x 4 Half Rate\tCtrl+8",     ID_CF_CF8, GRAYED
+        END
+        MENUITEM "Speed Limit\tF9",             ID_CPU_AUDIOSYNC, CHECKED
+        MENUITEM "Automatic Frame Skip\tF11",   ID_EMULATION_AUTOFRAMESKIP
+        , CHECKED
+        MENUITEM "Screen Shot\tF12",            ID_PLUGINS_SCREENSHOTS
+        , GRAYED
+        POPUP "Variable Speed Limits"
+        BEGIN
+            MENUITEM "Increase Speed\tNum (+)",     ID_VARIABLESPEEDLIMITS_INCREASESPEED
+
+            MENUITEM "Decrease Speed\tNum (-)",     ID_VARIABLESPEEDLIMITS_DECREASESPEED
+            , GRAYED
+            MENUITEM "Restore correct Speed\tNum (*)", 
+                                                    ID_VARIABLESPEEDLIMITS_RESTORECORRECTSPEED
+            , GRAYED
+        END
+        MENUITEM "Opcode Debugger",             ID_OPCODEDEBUGGER
+        MENUITEM "Opcode Debug Dirty Only",     ID_DIRTYONLY, CHECKED
+        MENUITEM "Opcode Compare Block only",   ID_OPCODEDEBUGGER_BLOCK_ONLY
+    END
+    POPUP "&Plug-ins"
+    BEGIN
+        MENUITEM "Change Plug-ins...\tCtrl+P",  IDM_PLUGINS
+        MENUITEM SEPARATOR
+        MENUITEM "&Video Settings...\tCtrl+V",  ID_VIDEO_CONFIG
+        MENUITEM "&Audio Settings...\tCtrl+A",  ID_AUD_CONFIG
+        MENUITEM "&Input Settings...\tCtrl+I",  ID_DI_CONFIG
+        MENUITEM "RSP Settings...\tCtrl+R",     ID_RSP_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "Full Screen\tAlt+Enter",      IDM_FULLSCREEN, GRAYED
+    END
+    POPUP "Net Play"
+    BEGIN
+        MENUITEM "Connect to Kaillera Server ...", ID_KAILLERA_MODE
+        MENUITEM SEPARATOR
+        POPUP "Lag"
+        BEGIN
+            MENUITEM "1 (less)",                    ID_LAGNESS_1
+            MENUITEM "2",                           ID_LAGNESS_2
+            MENUITEM "3",                           ID_LAGNESS_3
+            MENUITEM "4 (default)",                 ID_LAGNESS_4, CHECKED
+            MENUITEM "5",                           ID_LAGNESS_5
+            MENUITEM "6",                           ID_LAGNESS_6
+            MENUITEM "7 (more)",                    ID_LAGNESS_7
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help Manual\tF1",             ID_HELP_HELP
+        MENUITEM "Online Help",                 ID_ONLINE_HELP
+        MENUITEM "&1964 Home Page",             ID_CHECKWEB
+        MENUITEM SEPARATOR
+        MENUITEM "About Warranty...",           ID_ABOUT_WARRANTY
+        MENUITEM "&About 1964...",              ID_ABOUT
+    END
+    POPUP "Debug"
+    BEGIN
+        MENUITEM "Close Debug Windows",         ID_DEBUGGER_CLOSE
+        MENUITEM "Open Debug Windows",          ID_DEBUGGER_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Set Breakpoint ...",          ID_SETBREAKPOINT
+        MENUITEM "Clear Breakpoint",            ID_CLEAR_BREAKPOINT
+        MENUITEM SEPARATOR
+        MENUITEM "Debug Audio Task",            ID_DEBUGAUDIOTASK
+        MENUITEM "Debug SP Task",               ID_DEBUGSPTASK, CHECKED
+        MENUITEM "Debug SI Task",               ID_DEBUGSITASK
+        MENUITEM SEPARATOR
+        MENUITEM "Debug PI DMA",                ID_DEBUGPIDMA, CHECKED
+        MENUITEM "Debug SI DMA",                ID_DEBUGSIDMA
+        MENUITEM "Debug SP DMA",                ID_DEBUGSPDMA
+        MENUITEM SEPARATOR
+        MENUITEM "Debug Mempak",                ID_DEBUGMEMPAK, CHECKED
+        MENUITEM "Debug EEPROM",                ID_DEBUGEEPROM, CHECKED
+        MENUITEM "Debug Controller",            ID_DEBUG_CONTROLLER, CHECKED
+        MENUITEM "Debug SRAM",                  ID_DEBUG_SRAM, CHECKED
+        MENUITEM "Debug Netplay",               ID_DEBUG_NETPLAY
+        MENUITEM SEPARATOR
+        POPUP "Self-Modifying Code Detection Method"
+        BEGIN
+            MENUITEM "No Check",                    ID_CPU_DYNACODECHECKING_NOCHECK
+
+            MENUITEM "DMA only",                    ID_CPU_DYNACODECHECKING_DMA
+
+            MENUITEM "DWORD",                       ID_CPU_DYNACODECHECKING_DWORD
+
+            MENUITEM "QWORD",                       ID_CPU_DYNACODECHECKING_QWORD
+
+            MENUITEM "QWORD and DMA",               ID_CPU_DYNACODECHECKING_QWORDANDDMA
+
+            MENUITEM "Block",                       ID_CPU_DYNACODECHECKING_BLOCK
+
+            MENUITEM "Block and DMA",               ID_CPU_DYNACODECHECKING_BLOCKANDDMA
+
+            MENUITEM "Protect Memory (Default)",    ID_CPU_DYNACODECHECKING_PROTECTMEMORY
+            , CHECKED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Debug Exception Services",    ID_DEBUG_EXCEPTION_SERVICES
+        , CHECKED
+        MENUITEM "Debug TLB",                   ID_DEBUGTLB, CHECKED
+        MENUITEM "Debug TLB in detail",         ID_DEBUGTLBINDETAIL
+        MENUITEM "Debug TLB extra",             ID_DEBUG_TLB_EXTRA
+        MENUITEM "Debug CPU Counter",           ID_DEBUGCPUCOUNTER
+        MENUITEM "Debug Dyna Compiler",         ID_DEBUGDYNA
+        MENUITEM "Debug Dyna Execution",        ID_DEBUGDYNAEXECUTION
+        MENUITEM "Debug Self-Mod Code Detection", ID_DEBUG_SELFMODCODE
+        MENUITEM "Debug 64 bit FPU register",   ID_DEBUG_64BITFPU
+        MENUITEM "Debug Protect Memory",        ID_DEBUGPROTECTMEMORY
+        MENUITEM "Debug Framebuffer Read/Write", ID_DEBUGFRAMEBUFFERREAD
+        MENUITEM "Dyna Log",                    ID_DYNALOG
+        MENUITEM SEPARATOR
+        MENUITEM "Debug IO Operation",          ID_DEBUGIO
+        POPUP "Debug IO operations"
+        BEGIN
+            MENUITEM "Debug MI IO",                 ID_DEBUGIOMI
+            MENUITEM "Debug SP IO",                 ID_DEBUGIOSP
+            MENUITEM "Debug VI IO",                 ID_DEBUGIOVI
+            MENUITEM "Debug AI IO",                 ID_DEBUGIOAI
+            MENUITEM "Debug RI IO",                 ID_DEBUGIORI
+            MENUITEM "Debug SI IO",                 ID_DEBUGIOSI
+            MENUITEM "Debug PI IO",                 ID_DEBUGIOPI
+            MENUITEM "Debug DP IO",                 ID_DEBUGIODP
+            MENUITEM "Debug DPS IO",                ID_DEBUGIODPS
+            MENUITEM "Debug RDRAM IO",              ID_DEBUGIORDRAM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Interrupt Debugging",         ID_INTERRUPTDEBUGGING
+        POPUP "Debug Interrupts"
+        BEGIN
+            MENUITEM "Debug Compare Interrupts",    ID_DEBUGCOMPAREINTERRUPTS
+
+            MENUITEM "Debug AI Interrupts",         ID_DEBUGAIINTERRUPTS
+            MENUITEM "Debug VI Interrupts",         ID_DEBUGVIINTERRUPTS
+            MENUITEM "Debug PI Interrupts",         ID_DEBUGPIINTERRUPTS
+            MENUITEM "Debug SI Interrupts",         ID_DEBUGSIINTERRUPTS
+        END
+    END
+END
+
+ROM_POPUP_MENU MENU 
+BEGIN
+    POPUP "POPUP Menu"
+    BEGIN
+        MENUITEM "Load && Play in Window",      ID_POPUP_LOADPLAYINWINDOWMODE
+
+        MENUITEM "Load && Play in Full Screen", ID_POPUP_LOADPLAYINFULLSCREEN
+
+        MENUITEM SEPARATOR
+        MENUITEM "Cheat Codes...",              ID_POPUP_CHEATCODE
+        MENUITEM SEPARATOR
+        MENUITEM "Change ROM Folder...",        ID_POPUPMENU_CHANGEROMDIRECTORY
+
+        MENUITEM SEPARATOR
+        MENUITEM "ROM Information...",          ID_POPUPMENU_ROMINFORMATION
+        MENUITEM "ROM Plugin Settings...",      ID_POPUPMENU_PLUGINSETTING
+        MENUITEM "Assign Box Art Image ...",    ID_POPUPMENU_ASSIGNBOXARTIMAGE
+
+        MENUITEM "Remove Box Art Image Link",   ID_POPUPMENU_REMOVEBOXARTIMAGELINK
+
+        MENUITEM SEPARATOR
+        MENUITEM "ROM Properties...",           ID_POPUP_ROM_SETTING
+    END
+    POPUP "Header Popup 1"
+    BEGIN
+        MENUITEM "Show Alternate ROM Name",     ID_HEADERPOPUP_SHOWALTERNATEROMNAME
+
+        MENUITEM "Show Internal ROM Name",      ID_HEADERPOPUP_SHOW_INTERNAL_NAME
+
+        MENUITEM "Show ROM File Name",          ID_HEADERPOPUP_SHOWROMFILENAME
+
+        MENUITEM SEPARATOR
+        MENUITEM "Sort Ascending",              ID_HEADERPOPUP_1_SORT_ASCENDING
+
+        MENUITEM "Sort Descending",             ID_HEADERPOPUP_1_SORT_DESCENDING
+
+        MENUITEM SEPARATOR
+        MENUITEM "Add/Remove Columns...",       ID_HEADERPOPUP_1_SELECTING
+    END
+    POPUP "Header Popup 2"
+    BEGIN
+        MENUITEM "Sort Asccending",             ID_HEADERPOPUP_2_SORT_ASCENDING
+
+        MENUITEM "Sort Descending",             ID_HEADERPOPUP_2_SORT_DESCENDING
+
+        MENUITEM SEPARATOR
+        MENUITEM "Add/Remove Columns...",       ID_HEADERPOPUP_2_SELECTING
+    END
+    POPUP "Header Popup 3"
+    BEGIN
+        MENUITEM "Show Rom List",               ID_HEADERPOPUP3_SHOWROMLIST
+        MENUITEM "Show Box Art",                ID_HEADERPOPUP3_SHOWBOXART
+        MENUITEM SEPARATOR
+        MENUITEM "Increase Image Size",         ID_BOXARTIMAGE_ZOOM_IN
+        MENUITEM "Decrease Image Size",         ID_BOXARTIMAGE_ZOOM_OUT
+        MENUITEM "Increase X Spacing",          ID_BOXARTIMAGE_INCREASEXSPACING
+
+        MENUITEM "Decrease X Spacing",          ID_BOXARTIMAGE_DECREASEXSPACING
+
+        MENUITEM "Increase Y Spacing",          ID_BOXARTIMAGE_INCREASEYSPACING
+
+        MENUITEM "Decrease Y Spacing",          ID_BOXARTIMAGE_DECREASEYSPACING
+
+        MENUITEM SEPARATOR
+        MENUITEM "Show Alternate ROM Name",     ID_HEADERPOPUP_SHOWALTERNATEROMNAME
+
+        MENUITEM "Show Internal ROM Name",      ID_HEADERPOPUP_SHOW_INTERNAL_NAME
+
+        MENUITEM "Show ROM File Name",          ID_HEADERPOPUP_SHOWROMFILENAME
+
+        MENUITEM "Sort Asccending",             ID_HEADERPOPUP_1_SORT_ASCENDING
+
+        MENUITEM "Sort Descending",             ID_HEADERPOPUP_1_SORT_DESCENDING
+
+        MENUITEM SEPARATOR
+        MENUITEM "Add/Remove Columns...",       ID_HEADERPOPUP_1_SELECTING
+        MENUITEM SEPARATOR
+        MENUITEM "Refresh ROM List",            ID_HEADERPOPUP3_REFRESH
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+REDISTRIB_DIALOG DIALOG  0, 0, 308, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GNU General Public License Information"
+FONT 8, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,121,185,64,14
+    EDITTEXT        IDC_EDIT0,7,7,292,169,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+END
+
+ABOUTBOX DIALOGEX 0, 0, 362, 239
+STYLE DS_ABSALIGN | DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+FONT 8, "Tahoma", 400, 0, 0x0
+BEGIN
+    CTEXT           "\n1964 1.0 by schibo and Rice\nCheat codes by  Emu64 Cheats Team\nOfficial ROM_Properties.ini File by Duncan",
+                    IDC_STATIC_TEXT1,10,20,155,40
+    CTEXT           "\n1964 is not affiliated with any company.\nAll logos/trademarks are the property of their respective owner(s).",
+                    IDC_STATIC_TEXT4,10,188,155,33
+    CTEXT           "\n (C) 1999-2004 Joel Middendorf <schibo@emulation64.com>\nThanks: steb, zilmar, anarko, Azimer, Jabo\nhttp://1964emu.emulation64.com/\nHosted by www.emulation64.com",
+                    IDC_STATIC_TEXT3,10,131,155,53
+    CTEXT           "\nGreets: Angelo, ContraSF, Cricket, _Demo_, duddie, Emul8or, epsilon, F|RES, FlyingNR6, hartec, Houe, hWnd, icepir8, LaC, Lemmy Lionel, Niki Waibel, Phrodide, rcp, Scav, slacka, Smiff, SpectRe, Spikez, subice, StrmnNrmn, TNSe",
+                    IDC_STATIC_TEXT2,10,64,155,63
+    GROUPBOX        "About",IDC_STATIC_BOX_TITLE,8,12,165,219
+    GROUPBOX        "System Information",IDC_STATIC_GROUP_2,187,12,165,219
+    RTEXT           "SSE Optimizations Enabled?:",IDC_STATIC_TEXT5,196,30,59,
+                    19
+    LTEXT           "Static",IDC_IS_SSE_SUPPORTED,267,38,77,11
+    RTEXT           "Reason:",IDC_STATIC_TEXT6,197,53,58,9
+    LTEXT           "Static",IDC_SSE_CAUSE,267,53,77,28
+END
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+HEADER$(_DEBUG) DIALOGEX 0, 0, 152, 177
+#else
+HEADER DIALOGEX 0, 0, 152, 177
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Header Details"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_HEADVALIDATION,70,18,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED
+    CTEXT           "Validation",IDC_STATIC_TXT1,20,21,45,8
+    EDITTEXT        IDC_HEADCOMPRESSED,70,31,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED
+    CTEXT           "Compressed?",IDC_STATIC_TXT2,20,35,45,8
+    CTEXT           "Clock Rate",IDC_STATIC_TXT4,20,62,45,8
+    EDITTEXT        IDC_HEADCLOCK,70,58,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Start PC",IDC_STATIC_TXT5,20,74,45,8
+    EDITTEXT        IDC_HEADSTARTPC,70,70,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Release",IDC_STATIC_TXT6,20,86,45,8
+    EDITTEXT        IDC_HEADRELEASE,70,82,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "CRC1",IDC_STATIC_TXT7,20,98,45,8
+    EDITTEXT        IDC_HEADCRC1,70,94,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "CRC2",IDC_STATIC_TXT8,20,110,45,8
+    EDITTEXT        IDC_HEADCRC2,70,106,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Image Name",IDC_STATIC_TXT9,20,122,45,8
+    EDITTEXT        IDC_HEADIMGNAME,70,118,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED
+    CTEXT           "Manufacturer",IDC_STATIC_TXT10,20,134,45,8
+    EDITTEXT        IDC_HEADMANU,70,130,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Cart ID",IDC_STATIC_TXT11,20,146,45,8
+    EDITTEXT        IDC_HEADCARTID,70,142,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Country Code",IDC_STATIC_TXT12,20,158,45,8
+    EDITTEXT        IDC_HEADCOUNTRY,70,154,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED
+    GROUPBOX        "Rom Header",IDC_STATIC_GROUP,6,6,138,170
+    EDITTEXT        IDC_HEADUNKNOWN,70,44,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Unknown",IDC_STATIC_TXT3,20,50,45,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+REGS$(_DEBUG) DIALOGEX 0, 0, 459, 351
+#else
+REGS DIALOGEX 0, 0, 459, 351
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Registers"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close Debugger",IDOK,389,327,62,14
+    EDITTEXT        IDC_GPR1,21,7,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "R0",IDC_STATIC,7,10,10,8
+    EDITTEXT        IDC_GPR2,21,19,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "AT",IDC_STATIC,7,22,10,8
+    EDITTEXT        IDC_GPR3,21,31,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "V0",IDC_STATIC,7,34,10,8
+    EDITTEXT        IDC_GPR4,21,43,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "V1",IDC_STATIC,7,46,10,8
+    EDITTEXT        IDC_GPR5,21,55,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "A0",IDC_STATIC,7,58,10,8
+    EDITTEXT        IDC_GPR6,21,67,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "A1",IDC_STATIC,7,70,10,8
+    EDITTEXT        IDC_GPR7,21,79,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "A2",IDC_STATIC,7,82,10,8
+    EDITTEXT        IDC_GPR8,21,91,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "A3",IDC_STATIC,7,94,10,8
+    EDITTEXT        IDC_GPR9,21,103,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_GPR10,21,115,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T1",IDC_STATIC,7,118,10,8
+    EDITTEXT        IDC_GPR11,21,127,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T2",IDC_STATIC,7,130,10,8
+    EDITTEXT        IDC_GPR12,21,139,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T3",IDC_STATIC,7,142,10,8
+    EDITTEXT        IDC_GPR13,21,151,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T4",IDC_STATIC,7,154,10,8
+    EDITTEXT        IDC_GPR14,21,163,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T5",IDC_STATIC,7,166,10,8
+    EDITTEXT        IDC_GPR15,21,175,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T6",IDC_STATIC,7,178,10,8
+    EDITTEXT        IDC_GPR16,21,187,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "T7",IDC_STATIC,7,190,10,8
+    CTEXT           "T0",IDC_STATIC,7,106,10,8
+    EDITTEXT        IDC_GPR17,133,7,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_GPR18,133,19,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S1",IDC_STATIC,119,21,10,8
+    EDITTEXT        IDC_GPR19,133,31,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S2",IDC_STATIC,119,33,10,8
+    EDITTEXT        IDC_GPR20,133,43,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S3",IDC_STATIC,119,45,10,8
+    EDITTEXT        IDC_GPR21,133,55,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S4",IDC_STATIC,119,57,10,8
+    EDITTEXT        IDC_GPR22,133,67,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S5",IDC_STATIC,119,69,10,8
+    EDITTEXT        IDC_GPR23,133,79,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S6",IDC_STATIC,119,81,10,8
+    EDITTEXT        IDC_GPR24,133,91,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S7",IDC_STATIC,119,93,10,8
+    RTEXT           "S0",IDC_STATIC,119,9,10,8
+    EDITTEXT        IDC_GPR25,133,103,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_GPR26,133,115,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "T9",IDC_STATIC,119,117,10,8
+    EDITTEXT        IDC_GPR27,133,127,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "K0",IDC_STATIC,119,129,10,8
+    EDITTEXT        IDC_GPR28,133,139,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "K1",IDC_STATIC,119,141,10,8
+    EDITTEXT        IDC_GPR29,133,151,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "GP",IDC_STATIC,119,153,11,8
+    EDITTEXT        IDC_GPR30,133,163,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "SP",IDC_STATIC,119,165,10,8
+    EDITTEXT        IDC_GPR31,133,175,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "S8",IDC_STATIC,119,177,10,8
+    EDITTEXT        IDC_GPR32,133,187,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "RA",IDC_STATIC,119,189,11,8
+    RTEXT           "T8",IDC_STATIC,119,105,10,8
+    EDITTEXT        IDC_COP01,51,242,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Index",IDC_STATIC,9,244,37,8
+    EDITTEXT        IDC_COP09,137,242,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_COP02,51,254,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Random",IDC_STATIC,9,256,37,8
+    EDITTEXT        IDC_COP010,137,254,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Count",IDC_STATIC,96,256,37,8
+    EDITTEXT        IDC_COP03,51,266,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "EntryLo0",IDC_STATIC,9,268,37,8
+    EDITTEXT        IDC_COP011,137,266,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "EntryHi",IDC_STATIC,96,268,37,8
+    EDITTEXT        IDC_COP04,51,278,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "EntryLo1",IDC_STATIC,9,280,37,8
+    EDITTEXT        IDC_COP012,137,278,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Compare",IDC_STATIC,96,280,37,8
+    EDITTEXT        IDC_COP05,51,290,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Context",IDC_STATIC,9,292,37,8
+    EDITTEXT        IDC_COP013,137,290,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Status",IDC_STATIC,96,292,37,8
+    EDITTEXT        IDC_COP06,51,302,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "PageMask",IDC_STATIC,9,304,37,8
+    EDITTEXT        IDC_COP014,137,302,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Cause",IDC_STATIC,96,304,37,8
+    EDITTEXT        IDC_COP07,51,314,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Wired",IDC_STATIC,9,316,37,8
+    EDITTEXT        IDC_COP015,137,314,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "EPC",IDC_STATIC,96,316,37,8
+    EDITTEXT        IDC_COP08,51,326,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "*Reserved*",IDC_STATIC,9,328,37,8
+    EDITTEXT        IDC_COP016,137,326,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "PRevID",IDC_STATIC,96,328,37,8
+    RTEXT           "BadVAddr",IDC_STATIC,96,244,37,8
+    EDITTEXT        IDC_COP017,225,242,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_COP018,225,254,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "LLAddr",IDC_STATIC,184,257,37,8
+    EDITTEXT        IDC_COP019,225,266,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "WatchLo",IDC_STATIC,184,268,37,8
+    EDITTEXT        IDC_COP020,225,278,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "WatchHi",IDC_STATIC,184,281,37,8
+    EDITTEXT        IDC_COP021,225,290,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "XContext",IDC_STATIC,184,292,37,8
+    EDITTEXT        IDC_COP022,225,302,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "*Reserved*",IDC_STATIC,184,305,37,8
+    EDITTEXT        IDC_COP023,225,314,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "*Reserved*",IDC_STATIC,184,316,37,8
+    RTEXT           "*Reserved*",IDC_STATIC,184,329,37,8
+    EDITTEXT        IDC_COP024,225,326,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "Config",IDC_STATIC,184,244,37,8
+    EDITTEXT        IDC_COP025,315,242,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_COP026,315,254,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "*Reserved*",IDC_STATIC,268,257,43,8
+    EDITTEXT        IDC_COP027,315,266,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "PErr",IDC_STATIC,268,268,43,8
+    EDITTEXT        IDC_COP028,315,278,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "CacheErr",IDC_STATIC,268,281,43,8
+    EDITTEXT        IDC_COP029,315,290,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "TagLo",IDC_STATIC,268,292,43,8
+    EDITTEXT        IDC_COP030,315,302,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "TagHi",IDC_STATIC,268,305,43,8
+    EDITTEXT        IDC_COP031,315,314,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "ErrorEPC",IDC_STATIC,268,316,43,8
+    EDITTEXT        IDC_COP032,315,326,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    RTEXT           "*Reserved*",IDC_STATIC,268,329,43,8
+    RTEXT           "*Reserved*",IDC_STATIC,268,244,43,8
+    GROUPBOX        "COP0",IDC_STATIC,7,234,368,111
+    CTEXT           "PC",IDC_STATIC,15,203,10,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_PC,29,201,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_LLBIT,29,214,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "LL Bit",IDC_STATIC,15,216,10,8
+    EDITTEXT        IDC_MULTHI,102,201,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "MultHI",IDC_STATIC,78,203,22,8
+    EDITTEXT        IDC_MULTLO,102,214,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "MultLO",IDC_STATIC,77,216,24,8
+    LTEXT           "F1",IDC_STATIC,232,20,9,8
+    LTEXT           "F2",IDC_STATIC,232,33,9,8
+    LTEXT           "F3",IDC_STATIC,232,44,9,8
+    LTEXT           "F4",IDC_STATIC,232,57,9,8
+    LTEXT           "F5",IDC_STATIC,232,68,9,8
+    LTEXT           "F6",IDC_STATIC,232,81,9,8
+    LTEXT           "F7",IDC_STATIC,232,92,9,8
+    LTEXT           "F0",IDC_STATIC,232,9,9,8
+    LTEXT           "F9",IDC_STATIC,232,116,9,8
+    LTEXT           "F10",IDC_STATIC,232,129,13,8
+    LTEXT           "F11",IDC_STATIC,232,140,13,8
+    LTEXT           "F12",IDC_STATIC,232,153,13,8
+    LTEXT           "F13",IDC_STATIC,232,164,13,8
+    LTEXT           "F14",IDC_STATIC,232,177,13,8
+    LTEXT           "F15",IDC_STATIC,232,188,13,8
+    LTEXT           "F8",IDC_STATIC,232,105,9,8
+    EDITTEXT        IDC_FPR0,246,7,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR1,246,19,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR2,246,31,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR3,246,43,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR4,246,55,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR5,246,67,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR6,246,79,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR7,246,91,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR8,246,103,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR9,246,115,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR10,246,127,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR11,246,139,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR12,246,151,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR13,246,163,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR14,246,175,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR15,246,187,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    LTEXT           "F17",IDC_STATIC,347,22,13,8
+    LTEXT           "F18",IDC_STATIC,347,34,13,8
+    LTEXT           "F19",IDC_STATIC,347,46,13,8
+    LTEXT           "F20",IDC_STATIC,347,58,13,8
+    LTEXT           "F21",IDC_STATIC,347,70,13,8
+    LTEXT           "F22",IDC_STATIC,347,82,13,8
+    LTEXT           "F23",IDC_STATIC,347,94,13,8
+    LTEXT           "F16",IDC_STATIC,347,10,13,8
+    LTEXT           "F25",IDC_STATIC,347,118,13,8
+    LTEXT           "F26",IDC_STATIC,347,130,13,8
+    LTEXT           "F27",IDC_STATIC,347,142,13,8
+    LTEXT           "F28",IDC_STATIC,347,154,13,8
+    LTEXT           "F29",IDC_STATIC,347,166,13,8
+    LTEXT           "F30",IDC_STATIC,347,178,13,8
+    LTEXT           "F31",IDC_STATIC,347,190,13,8
+    LTEXT           "F24",IDC_STATIC,347,106,13,8
+    EDITTEXT        IDC_FPR16,363,7,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR17,363,19,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR18,363,31,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR19,363,43,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR20,363,55,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR21,363,67,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR22,363,79,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR23,363,91,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR24,363,103,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR25,363,115,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR26,363,127,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR27,363,139,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR28,363,151,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR29,363,163,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR30,363,175,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_FPR31,363,187,89,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "Enable Opcode Trace (slower)",IDC_OPCODETRACE,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,382,226,72,
+                    16
+    PUSHBUTTON      "Trigger SP Interrupt",IDC_TRIGGER_SP_INTERRUPT,237,210,
+                    68,15
+    PUSHBUTTON      "Process Dlist",IDC_PROCESS_DLIST,311,210,69,15
+    PUSHBUTTON      "Flush GL",IDC_GLFLUSH,388,210,65,14
+    PUSHBUTTON      "BreakPoint...",ID_RUNTO,392,306,55,17
+    CONTROL         "Enable Logging",IDC_CHECK_LOGGING,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,382,244,72,
+                    12
+    PUSHBUTTON      "Flush",IDC_REGS_FLUSH,195,210,37,15
+    CONTROL         "Use Interpreter Compare Regs",IDC_USE_INTERPRETER_REG,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,382,
+                    256,60,20
+    CONTROL         "Use Dyna Compare Regs",IDC_OPCODE_DYNA_COMPARE,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,382,276,60,
+                    20
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+VIREGS$(_DEBUG) DIALOGEX 0, 0, 152, 98
+#else
+VIREGS DIALOGEX 0, 0, 152, 98
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "VI Registers"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_VIWIDTH,70,18,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Width",IDC_STATIC,20,24,45,8
+    EDITTEXT        IDC_VIHEIGHT,70,34,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Height",IDC_STATIC,20,40,45,8
+    CTEXT           "Origin",IDC_STATIC,20,56,45,8
+    EDITTEXT        IDC_VIORIGIN,70,50,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CTEXT           "Pixel Size",IDC_STATIC,20,72,45,8
+    EDITTEXT        IDC_VIPIXSIZE,70,66,66,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    GROUPBOX        "VI Values",IDC_STATIC,8,6,138,82
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+CODELIST$(_DEBUG) DIALOGEX 0, 0, 282, 412
+#else
+CODELIST DIALOGEX 0, 0, 282, 412
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "CodeList"
+FONT 8, "Courier", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_CODELIST,15,7,215,389,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR_CODELIST,234,326,25,14
+    PUSHBUTTON      "Pause",IDC_PAUSE_CODELIST,234,305,25,14
+    PUSHBUTTON      "Run",IDC_RUN_CODELIST,234,286,17,14
+    PUSHBUTTON      "TLB",IDC_PRINT_TLB,234,246,17,14
+    PUSHBUTTON      "All TLB",IDC_PRINT_TLBALL,234,225,30,14
+    PUSHBUTTON      "Step",IDC_STEPCPU_CODELIST,234,265,20,14
+    PUSHBUTTON      "SI",IDC_MANUAL_SI,236,6,15,14
+    PUSHBUTTON      "VI",IDC_MANUAL_VI,236,26,15,14
+    PUSHBUTTON      "AI",IDC_MANUAL_AI,236,46,15,14
+    PUSHBUTTON      "SP",IDC_MANUAL_SP,236,66,15,14
+    PUSHBUTTON      "DP",IDC_MANUAL_DP,236,86,15,14
+    PUSHBUTTON      "COMPARE",IDC_MANUAL_COMPARE,236,107,35,14
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+ENTERHEX$(_DEBUG) DIALOGEX 0, 0, 142, 55
+#else
+ENTERHEX DIALOGEX 0, 0, 142, 55
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Run to..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,20,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,82,30,50,14
+    EDITTEXT        IDC_VALUE,52,6,80,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Enter Hex",IDC_STATIC,10,12,36,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+COP2REGS1$(_DEBUG) DIALOG  0, 0, 398, 122
+#else
+COP2REGS1 DIALOG  0, 0, 398, 122
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "COP1 Vectors / Regs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VEC11,26,16,40,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VEC12,26,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC13,26,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC14,26,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC15,26,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC16,26,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC17,26,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC18,26,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 1",IDC_STATIC,26,5,40,8
+    EDITTEXT        IDC_VEC21,72,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC22,72,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC23,72,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC24,72,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC25,72,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC26,72,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC27,72,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC28,72,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 2",IDC_STATIC,72,4,40,8
+    EDITTEXT        IDC_VEC31,118,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC32,118,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC33,118,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC34,118,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC35,118,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC36,118,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC37,118,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC38,118,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 3",IDC_STATIC,118,5,40,8
+    EDITTEXT        IDC_VEC41,164,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC42,164,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC43,164,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC44,164,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC45,164,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC46,164,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC47,164,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC48,164,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 4",IDC_STATIC,164,4,40,8
+    EDITTEXT        IDC_VEC51,210,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC52,210,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC53,210,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC54,210,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC55,210,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC56,210,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC57,210,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC58,210,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 5",IDC_STATIC,210,5,40,8
+    EDITTEXT        IDC_VEC61,256,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC62,256,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC63,256,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC64,256,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC65,256,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC66,256,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC67,256,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC68,256,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 6",IDC_STATIC,256,4,40,8
+    EDITTEXT        IDC_VEC71,302,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC72,302,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC73,302,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC74,302,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC75,302,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC76,302,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC77,302,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC78,302,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 7",IDC_STATIC,302,5,40,8
+    EDITTEXT        IDC_VEC81,348,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC82,348,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC83,348,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC84,348,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC85,348,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC86,348,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC87,348,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC88,348,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 8",IDC_STATIC,348,4,40,8
+    CTEXT           "1",IDC_STATIC,4,22,20,8
+    CTEXT           "2",IDC_STATIC,4,34,20,8
+    CTEXT           "3",IDC_STATIC,4,46,20,8
+    CTEXT           "4",IDC_STATIC,4,58,20,8
+    CTEXT           "5",IDC_STATIC,4,70,20,8
+    CTEXT           "6",IDC_STATIC,4,82,20,8
+    CTEXT           "7",IDC_STATIC,4,94,20,8
+    CTEXT           "8",IDC_STATIC,4,106,20,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+COP2REGS2$(_DEBUG) DIALOG  0, 0, 398, 122
+#else
+COP2REGS2 DIALOG  0, 0, 398, 122
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "COP2 Vectors / Regs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VEC91,26,16,40,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VEC92,26,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC93,26,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC94,26,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC95,26,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC96,26,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC97,26,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC98,26,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 9",IDC_STATIC,26,5,40,8
+    EDITTEXT        IDC_VEC101,72,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC102,72,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC103,72,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC104,72,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC105,72,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC106,72,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC107,72,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC108,72,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 10",IDC_STATIC,72,4,40,8
+    EDITTEXT        IDC_VEC111,118,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC112,118,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC113,118,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC114,118,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC115,118,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC116,118,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC117,118,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC118,118,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 11",IDC_STATIC,118,5,40,8
+    EDITTEXT        IDC_VEC121,164,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC122,164,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC123,164,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC124,164,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC125,164,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC126,164,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC127,164,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC128,164,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 12",IDC_STATIC,164,4,40,8
+    EDITTEXT        IDC_VEC131,210,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC132,210,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC133,210,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC134,210,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC135,210,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC136,210,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC137,210,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC138,210,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 13",IDC_STATIC,210,5,40,8
+    EDITTEXT        IDC_VEC141,256,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC142,256,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC143,256,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC144,256,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC145,256,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC146,256,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC147,256,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC148,256,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 14",IDC_STATIC,256,4,40,8
+    EDITTEXT        IDC_VEC151,302,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC152,302,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC153,302,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC154,302,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC155,302,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC156,302,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC157,302,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC158,302,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 15",IDC_STATIC,302,5,40,8
+    EDITTEXT        IDC_VEC161,348,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC162,348,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC163,348,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC164,348,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC165,348,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC166,348,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC167,348,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC168,348,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 16",IDC_STATIC,348,4,40,8
+    CTEXT           "1",IDC_STATIC,4,22,20,8
+    CTEXT           "2",IDC_STATIC,4,34,20,8
+    CTEXT           "3",IDC_STATIC,4,46,20,8
+    CTEXT           "4",IDC_STATIC,4,58,20,8
+    CTEXT           "5",IDC_STATIC,4,70,20,8
+    CTEXT           "6",IDC_STATIC,4,82,20,8
+    CTEXT           "7",IDC_STATIC,4,94,20,8
+    CTEXT           "8",IDC_STATIC,4,106,20,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+COP2REGS3$(_DEBUG) DIALOG  0, 0, 398, 122
+#else
+COP2REGS3 DIALOG  0, 0, 398, 122
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "COP2 Vectors / Regs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VEC171,26,16,40,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VEC172,26,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC173,26,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC174,26,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC175,26,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC176,26,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC177,26,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC178,26,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 17",IDC_STATIC,26,5,40,8
+    EDITTEXT        IDC_VEC181,72,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC182,72,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC183,72,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC184,72,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC185,72,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC186,72,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC187,72,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC188,72,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 18",IDC_STATIC,72,4,40,8
+    EDITTEXT        IDC_VEC191,118,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC192,118,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC193,118,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC194,118,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC195,118,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC196,118,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC197,118,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC198,118,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 19",IDC_STATIC,118,5,40,8
+    EDITTEXT        IDC_VEC201,164,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC202,164,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC203,164,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC204,164,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC205,164,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC206,164,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC207,164,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC208,164,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 20",IDC_STATIC,164,4,40,8
+    EDITTEXT        IDC_VEC211,210,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC212,210,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC213,210,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC214,210,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC215,210,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC216,210,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC217,210,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC218,210,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 21",IDC_STATIC,210,5,40,8
+    EDITTEXT        IDC_VEC221,256,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC222,256,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC223,256,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC224,256,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC225,256,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC226,256,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC227,256,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC228,256,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 22",IDC_STATIC,256,4,40,8
+    EDITTEXT        IDC_VEC231,302,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC232,302,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC233,302,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC234,302,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC235,302,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC236,302,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC237,302,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC238,302,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 23",IDC_STATIC,302,5,40,8
+    EDITTEXT        IDC_VEC241,348,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC242,348,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC243,348,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC244,348,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC245,348,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC246,348,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC247,348,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC248,348,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 24",IDC_STATIC,348,4,40,8
+    CTEXT           "1",IDC_STATIC,4,22,20,8
+    CTEXT           "2",IDC_STATIC,4,34,20,8
+    CTEXT           "3",IDC_STATIC,4,46,20,8
+    CTEXT           "4",IDC_STATIC,4,58,20,8
+    CTEXT           "5",IDC_STATIC,4,70,20,8
+    CTEXT           "6",IDC_STATIC,4,82,20,8
+    CTEXT           "7",IDC_STATIC,4,94,20,8
+    CTEXT           "8",IDC_STATIC,4,106,20,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+COP2REGS4$(_DEBUG) DIALOG  0, 0, 398, 122
+#else
+COP2REGS4 DIALOG  0, 0, 398, 122
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "COP2 Vectors / Regs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VEC251,26,16,40,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    EDITTEXT        IDC_VEC252,26,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC253,26,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC254,26,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC255,26,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC256,26,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC257,26,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC258,26,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 25",IDC_STATIC,26,5,40,8
+    EDITTEXT        IDC_VEC261,72,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC262,72,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC263,72,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC264,72,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC265,72,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC266,72,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC267,72,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC268,72,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 26",IDC_STATIC,72,4,40,8
+    EDITTEXT        IDC_VEC271,118,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC272,118,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC273,118,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC274,118,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC275,118,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC276,118,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC277,118,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC278,118,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 27",IDC_STATIC,118,5,40,8
+    EDITTEXT        IDC_VEC281,164,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC282,164,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC283,164,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC284,164,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC285,164,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC286,164,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC287,164,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC288,164,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 28",IDC_STATIC,164,4,40,8
+    EDITTEXT        IDC_VEC291,210,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC292,210,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC293,210,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC294,210,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC295,210,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC296,210,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC297,210,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC298,210,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 29",IDC_STATIC,210,5,40,8
+    EDITTEXT        IDC_VEC301,256,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC302,256,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC303,256,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC304,256,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC305,256,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC306,256,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC307,256,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC308,256,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 30",IDC_STATIC,256,4,40,8
+    EDITTEXT        IDC_VEC311,302,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC312,302,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC313,302,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC314,302,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC315,302,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC316,302,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC317,302,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC318,302,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 31",IDC_STATIC,302,5,40,8
+    EDITTEXT        IDC_VEC321,348,16,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC322,348,28,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC323,348,40,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC324,348,52,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC325,348,64,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC326,348,76,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC327,348,88,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_VEC328,348,100,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Vector 32",IDC_STATIC,348,4,40,8
+    CTEXT           "1",IDC_STATIC,4,22,20,8
+    CTEXT           "2",IDC_STATIC,4,34,20,8
+    CTEXT           "3",IDC_STATIC,4,46,20,8
+    CTEXT           "4",IDC_STATIC,4,58,20,8
+    CTEXT           "5",IDC_STATIC,4,70,20,8
+    CTEXT           "6",IDC_STATIC,4,82,20,8
+    CTEXT           "7",IDC_STATIC,4,94,20,8
+    CTEXT           "8",IDC_STATIC,4,106,20,8
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+MEMORY$(_DEBUG) DIALOGEX 0, 0, 340, 337
+#else
+MEMORY DIALOGEX 0, 0, 340, 337
+#endif
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Memory"
+FONT 9, "Courier New", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Update",IDC_UPDATE,185,9,50,14,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_MEMEDIT,103,9,78,13,ES_UPPERCASE | ES_AUTOHSCROLL
+    LISTBOX         IDC_MEMLIST,7,29,329,257,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Address: 0x",IDC_STATIC,23,11,78,8,0,WS_EX_RIGHT
+    CONTROL         "Intel",IDC_VIEWINTEL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,249,9,40,14,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "MIPS",IDC_VIEWMIPS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,290,9,40,14,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Endian Viewer",IDC_STATIC,239,0,97,26
+    PUSHBUTTON      "Disassemble",IDC_DEASSEMBLE,72,308,50,14
+    PUSHBUTTON      "Next Page",IDC_DASM_NEXTPAGE,136,308,50,14
+    PUSHBUTTON      "Previous Page",IDC_DASM_PREVPAGE,195,308,57,14
+END
+#endif
+
+PLUGINS DIALOGEX 0, 0, 360, 245
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_VIDEO,55,22,211,131,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "About",IDC_VID_ABOUT,284,21,50,14
+    COMBOBOX        IDC_COMBO_AUDIO,55,74,211,136,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "About",IDC_AUD_ABOUT,284,73,50,14
+    COMBOBOX        IDC_COMBO_INPUT,55,127,211,107,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "About",IDC_DI_ABOUT,284,127,50,14
+    COMBOBOX        IDC_COMBO_RSP,55,181,211,103,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "About",IDC_RSP_ABOUT,283,181,50,14
+    PUSHBUTTON      "&Download Plug-ins Online",IDC_DOWNLOAD_PLUGINS,214,225,
+                    122,14
+    GROUPBOX        "Audio",IDC_STATIC_GROUP_AUDIO,7,55,345,48,BS_CENTER
+    CONTROL         154,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    SS_SUNKEN,13,12,35,32,WS_EX_TRANSPARENT
+    GROUPBOX        "Video",IDC_STATIC_GROUP_VIDEO,7,3,345,48,BS_CENTER
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    SS_SUNKEN,13,64,35,32,WS_EX_TRANSPARENT
+    CONTROL         153,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    SS_SUNKEN,13,118,35,32,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    GROUPBOX        "RSP",IDC_STATIC_GROUP_RSP,7,163,345,48,BS_CENTER
+    GROUPBOX        "Input",IDC_STATIC_GROUP_INPUT,7,108,345,48,BS_CENTER
+    CONTROL         206,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    SS_SUNKEN,13,172,35,32,WS_EX_TRANSPARENT
+    CONTROL         "Display default plugin setting",
+                    IDC_DEFAULT_PLUGIN_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,21,216,186,10
+    CONTROL         "Display ROM plugin setting",IDC_ROM_PLUGIN_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,21,229,188,10
+END
+
+ROM_OPTIONS DIALOGEX 0, 0, 361, 244
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Hardware",IDC_STATIC_GROUP1,7,3,347,58
+    RTEXT           "Expansion Pak:",IDC_STATIC_TXT1,12,14,67,8
+    COMBOBOX        IDC_ROMOPTION_RDRAMSIZE,84,12,95,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Save Type:",IDC_STATIC_TXT3,14,30,65,8
+    COMBOBOX        IDC_ROMOPTION_SAVETYPE,84,28,95,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Use TLB:",IDC_STATIC_TXT5,15,46,64,8
+    COMBOBOX        IDC_ROMOPTION_USETLB,84,44,96,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "EEPROM Size:",IDC_STATIC_TXT2,185,13,62,8
+    COMBOBOX        IDC_ROMOPTION_EEPROMSIZE,252,12,94,65,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Counter Factor:",IDC_STATIC_TXT4,186,29,61,8
+    COMBOBOX        IDC_ROMOPTION_CF,252,28,94,105,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Max VI Limit:",IDC_STATIC_TXT6,185,45,62,8
+    COMBOBOX        IDC_ROMOPTION_MAXVISPEED,252,44,94,100,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Compiler",IDC_STATIC_GROUP2,7,66,347,76
+    RTEXT           "Core:",IDC_STATIC_TXT7,9,79,70,8
+    COMBOBOX        IDC_ROMOPTION_CPUEMULATOR,84,76,96,105,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Timing Control:",IDC_STATIC_TXT9,12,94,67,8
+    COMBOBOX        IDC_ROMOPTION_TIMING_CONTROL,84,92,96,55,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Self-Modifying Code:",IDC_STATIC_TXT11,9,110,70,8
+    COMBOBOX        IDC_ROMOPTION_CODECHECK,84,108,96,110,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Assume 32bit:",IDC_STATIC_TXT13,9,126,70,8
+    COMBOBOX        IDC_ROMOPTION_ASSUME_32BIT,84,124,96,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Register Caching:",IDC_STATIC_TXT8,181,78,90,8
+    COMBOBOX        IDC_ROMOPTION_USEREGC,275,76,71,60,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "CP1 Unusable Exceptions:",IDC_STATIC_TXT10,184,94,87,8
+    COMBOBOX        IDC_ROMOPTION_FPUHACK,275,92,71,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Link Code Blocks:",IDC_STATIC_TXT12,188,110,83,8
+    COMBOBOX        IDC_ROMOPTION_LINK4KB,275,108,71,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Two-Pass Compiler:",IDC_STATIC_TXT14,180,126,91,11
+    COMBOBOX        IDC_ROMOPTION_ANALYSIS,275,124,71,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "With plugins",IDC_STATIC_GROUP3,7,148,347,27
+    RTEXT           "Frame Buffer R/W:",IDC_STATIC_TXT15,14,159,65,8
+    COMBOBOX        IDC_ROMOPTION_FRAMEBUFFER_R_W,84,157,96,105,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "RSP/RDP Timing:",IDC_STATIC_TXT16,183,159,64,8
+    COMBOBOX        IDC_ROMOPTION_SP_DP_TIMING,252,157,94,60,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ROMOPTION_HLE,258,61,96,45,CBS_DROPDOWNLIST | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Alternate Title (50 characters max.):",
+                    IDC_STATIC_GROUP4,7,181,347,27
+    EDITTEXT        IDC_ROMOPTION_ALTTITLE,14,191,333,12,ES_AUTOHSCROLL
+    GROUPBOX        "Comments (80 characters max.)",IDC_STATIC_GROUP5,7,210,
+                    347,27
+    EDITTEXT        IDC_ROMOPTION_COMMENTS,13,220,333,12,ES_AUTOHSCROLL
+END
+
+CHEAT_HACK DIALOGEX 0, 0, 360, 240
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Use Cheat Codes",IDC_DEFAULTOPTIONS_AUTOCHEAT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_GROUP | WS_TABSTOP,127,12,
+                    227,10
+    GROUPBOX        "Codes for this game",IDC_STATIC_CODEFRAME,5,26,190,208
+    LISTBOX         IDC_GAMESHARK_LIST,10,37,178,174,LBS_SORT | 
+                    LBS_OWNERDRAWFIXED | LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Select",IDC_GAMESHARK_ACTIVATE,16,215,52,14
+    PUSHBUTTON      "Unselect",IDC_GAMESHARK_DEACTIVATE,72,215,52,14
+    PUSHBUTTON      "Unselect All",IDC_GAMESHARK_DEACTIVATEALL,128,215,55,14
+    GROUPBOX        "Enter New Code",IDC_STATIC_NEWCODEFRAME,199,25,155,209
+    LTEXT           "Name",IDC_STATIC_NAME,204,38,39,8
+    EDITTEXT        IDC_GAMESHARK_NAME,246,38,103,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GAMESHARK_CODE,204,57,145,84,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Country:",IDC_STATIC_CHEAT_COUNTRY,206,146,48,10
+    COMBOBOX        IDC_CHEATCODE_COUNTRY,256,146,90,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_CHEAT_NOTE,205,171,141,38,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "Add/Modify",IDC_GAMESHARK_ADD,210,215,67,14
+    PUSHBUTTON      "Delete",IDC_GAMESHARK_DELETE,280,215,57,14
+    LTEXT           "Note2",IDC_CHEAT_NOTE2,209,7,145,8
+    LTEXT           "Notes:",IDC_STATIC_CHEAT_NOTE1,207,162,22,8
+END
+
+OPTIONS DIALOGEX 0, 0, 360, 241
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "File Menu Items",IDC_STATIC_GROUP1,7,7,346,55
+    CONTROL         "Display Recent ROM Folders",IDC_ENABLE_DIRECTORY_LIST,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,21,168,10
+    LTEXT           "How many?",IDC_STATIC_TXT1,21,36,50,8
+    CONTROL         "4",IDC_NO_OF_FOLDERS_4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,75,36,20,10
+    CONTROL         "8",IDC_NO_OF_FOLDERS_8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,101,36,20,10
+    CONTROL         "16",IDC_NO_OF_FOLDERS_16,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,36,23,10
+    CONTROL         "Display Recent ROMs",IDC_ENABLE_GAME_LIST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,210,21,135,10
+    LTEXT           "How many?",IDC_STATIC_TXT2,210,36,55,8
+    CONTROL         "8",IDC_NO_OF_ROMS_8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,272,36,20,10
+    CONTROL         "16",IDC_NO_OF_ROMS_16,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,298,36,23,10
+    GROUPBOX        "Window Behavior",IDC_STATIC_GROUP2,72,72,204,109
+    CONTROL         "Start ROM in Full Screen",IDC_OPTION_AUTOFULLSCREEN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,106,122,162,10
+    GROUPBOX        "Status Bar Monitoring",IDC_STATIC_GROUP3,7,187,346,47,
+                    WS_GROUP
+    CONTROL         "Counters",IDC_ENABLE_DETAIL_STATUS,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,28,211,100,15
+    CONTROL         "Profiler",IDC_ENABLE_PROFILER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,139,211,79,15
+    CONTROL         "Disabled",IDC_NONE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,249,211,84,15
+    CONTROL         "Display Error Log Window",IDC_OPTION_ERROR_WINDOW,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,
+                    213,184,132,10
+    CONTROL         "Pause When 1964 Window Is Inactive",
+                    IDC_DEFAULTOPTIONS_PAUSEWHENINACTIVE,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_GROUP | WS_TABSTOP,106,110,163,10
+END
+
+CRITICAL_MESSAGE DIALOGEX 0, 0, 363, 242
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Error Log Window"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close This Window",IDOK,39,214,125,14
+    EDITTEXT        IDC_CRITICAL_MESSAGE_TEXTBOX,13,7,336,202,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "Clear Messages",ID_CLEAR_MESSAGE,183,214,137,14
+END
+
+COL_SELECT DIALOGEX 0, 0, 360, 241
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,7,346,227
+    CONTROL         "Enable ROM Browser",IDC_OPTION_ROMBROWSER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,126,19,201,10
+    GROUPBOX        "Game Name To Display",IDC_STATIC_GROUP1,17,50,144,122
+    CONTROL         "Alternate Name",IDC_ALT_NAME,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,36,83,119,10
+    CONTROL         "Internal ROM Name",IDC_INTERNAL_NAME,"Button",
+                    BS_AUTORADIOBUTTON,36,106,118,10
+    CONTROL         "Rom File Name",IDC_ROM_FILENAME,"Button",
+                    BS_AUTORADIOBUTTON,36,130,120,10
+    GROUPBOX        "Columns to Display",IDC_STATIC_GROUP2,169,50,174,122
+    CONTROL         "Tree1",IDC_COL_SEL_TREE,"SysTreeView32",TVS_NOTOOLTIPS | 
+                    TVS_CHECKBOXES | TVS_NOSCROLL | WS_TABSTOP,180,68,152,92,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Show Box Art in Rom Browser",IDC_OPTION_ENABLE_BOXART,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,182,162,10
+    LTEXT           "Box Art Image Width (16-1024):",IDC_BOXART_WIDTH,18,201,
+                    127,8
+    EDITTEXT        IDC_EDIT_BOXART_WIDTH,151,199,32,14,ES_AUTOHSCROLL
+    LTEXT           "Box Art Image Height (12-720):",IDC_BOXART_HEIGHT,17,
+                    216,128,8
+    CONTROL         "",IDC_SPIN_BOXART_WIDTH,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,183,198,11,14
+    CONTROL         "",IDC_SPIN_BOXART_HEIGHT,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,183,213,11,14
+    RTEXT           "X-Spacing (4-300):",IDC_ICON_X_SPACING_STR,229,202,67,8
+    RTEXT           "Y-Spacing (4-300):",IDC_ICON_Y_SPACING_STR,230,215,66,8
+    GROUPBOX        "",IDC_STATIC,7,7,346,227
+    EDITTEXT        IDC_EDIT_BOXART_HEIGHT,151,213,32,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS,183,198,11,
+                    14
+    CONTROL         "",IDC_SPIN4,"msctls_updown32",UDS_ARROWKEYS,183,213,11,
+                    14
+    EDITTEXT        IDC_EDIT_BOXART_Y_SPACING,299,212,32,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_BOXART_X_SPACING,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,332,198,11,14
+    CONTROL         "",IDC_SPIN_BOXART_Y_SPACING,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS,332,212,11,14
+    EDITTEXT        IDC_EDIT_BOXART_X_SPACING,299,198,32,14,ES_AUTOHSCROLL
+END
+
+FOLDERS DIALOGEX 0, 0, 360, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "ROMs",IDC_STATIC_GROUP1,7,19,346,56
+    EDITTEXT        IDC_DEFAULTOPTIONS_ROMDIRECTORY,16,34,293,12,
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      ">>>",IDC_DEFAULTOPTIONS_BUTTON_ROMDIR,318,35,26,10
+    CONTROL         "Use the last opened folder",
+                    IDC_DEFAULTOPTIONS_UseLastRomDirectory,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,55,329,10
+    GROUPBOX        "Game Saves",IDC_STATIC_GROUP2,7,89,346,56
+    EDITTEXT        IDC_DEFAULTOPTIONS_SAVEDIRECTORY,16,104,293,12,
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      ">>>",IDC_DEFAULTOPTIONS_BUTTON_SAVEDIR,318,105,26,10
+    CONTROL         "Use default: $1964.exe\\Save",
+                    IDC_DEFAULTOPTIONS_USE1964STATESAVEDIRECTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,124,326,10
+    GROUPBOX        "Plugins",IDC_STATIC_GROUP3,7,161,346,56
+    EDITTEXT        IDC_DEFAULTOPTIONS_PLUGINDIRECTORY,16,176,293,12,
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      ">>>",IDC_DEFAULTOPTIONS_BUTTON_PLUGINDIR,318,177,26,10
+    CONTROL         "Use default: $1964.exe\\Plugin",
+                    IDC_DEFAULTOPTIONS_USE1964PLUGINDIRECTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,196,327,10
+END
+
+ROM_INFO DIALOGEX 0, 0, 360, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_ROMOPTION_CRC1,75,79,60,8
+    LTEXT           "File name:",IDC_STATIC_TXT1,22,30,90,8
+    LTEXT           "Static",IDC_ROMOPTION_CRC2,75,90,64,8
+    LTEXT           "Static",IDC_ROMOPTION_FILENAME,121,30,212,8
+    LTEXT           "Static",IDC_ROMOPTION_COUNTRYCODE,75,105,68,8
+    LTEXT           "Rom Internal Name:",IDC_STATIC_TXT3,22,56,92,8
+    LTEXT           "Static",IDC_ROMOPTION_GAMENAME,121,56,207,8
+    LTEXT           "CRC1:",IDC_STATIC_TXT4,21,78,48,8
+    LTEXT           "CRC2:",IDC_STATIC_TXT5,21,89,48,8
+    LTEXT           "Country:",IDC_STATIC_TXT6,21,105,47,8
+    LTEXT           "File Location:",IDC_STATIC_TXT2,22,43,91,8
+    LTEXT           "Static",IDC_ROMOPTION_FILELOCATION,121,43,217,8
+    GROUPBOX        "",IDC_STATIC,7,7,346,225
+END
+
+UNAVAILABLE DIALOGEX 0, 0, 342, 232
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Not Available at this time.",IDC_STATIC_TXT1,134,107,92,
+                    11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+WINGUI_ACC ACCELERATORS 
+BEGIN
+    "/",            ID_ABOUT,               ASCII,  ALT, NOINVERT
+    "?",            ID_ABOUT,               ASCII,  ALT, NOINVERT
+    "A",            ID_AUD_CONFIG,          VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_CF_CF1,              VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_CF_CF2,              VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_CF_CF3,              VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_CF_CF4,              VIRTKEY, CONTROL, NOINVERT
+    "5",            ID_CF_CF5,              VIRTKEY, CONTROL, NOINVERT
+    "6",            ID_CF_CF6,              VIRTKEY, CONTROL, NOINVERT
+    "7",            ID_CF_CF7,              VIRTKEY, CONTROL, NOINVERT
+    "8",            ID_CF_CF8,              VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_CHANGEDIRECTORY,     VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          ID_CHEATS_APPLY,        VIRTKEY, NOINVERT
+    VK_F9,          ID_CPU_AUDIOSYNC,       VIRTKEY, NOINVERT
+    VK_F4,          ID_CPU_KILL,            VIRTKEY, CONTROL, NOINVERT
+    VK_SUBTRACT,    ID_DEC_SPEED_LIMIT,     VIRTKEY, NOINVERT
+    "I",            ID_DI_CONFIG,           VIRTKEY, CONTROL, NOINVERT
+    VK_F10,         ID_EMULATION_AUTOCFTIMING, VIRTKEY, NOINVERT
+    VK_F11,         ID_EMULATION_AUTOFRAMESKIP, VIRTKEY, NOINVERT
+    "C",            ID_FILE_CHEAT,          VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_FILE_FRESHROMLIST,   VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_ROMINFO,        VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         ID_INC_SPEED_LIMIT,     VIRTKEY, NOINVERT
+    VK_F7,          ID_LOADSTATE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_ONLINE_HELP,         VIRTKEY, NOINVERT
+    "O",            ID_OPENROM,             VIRTKEY, CONTROL, NOINVERT
+    VK_F12,         ID_PLUGINS_SCREENSHOTS, VIRTKEY, NOINVERT
+    "W",            ID_PREFERENCE_OPTIONS,  VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          ID_ROM_PAUSE,           VIRTKEY, NOINVERT
+    VK_F2,          ID_ROM_START,           VIRTKEY, NOINVERT
+    "R",            ID_RSP_CONFIG,          VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          ID_SAVESTATE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_VIDEO_CONFIG,        VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      IDM_FULLSCREEN,         VIRTKEY, ALT, NOINVERT
+    "P",            IDM_PLUGINS,            VIRTKEY, CONTROL, NOINVERT
+    VK_MULTIPLY,    ID_RESET_SPEED_LIMIT,   VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,9,0
+ PRODUCTVERSION 0,9,9,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Emulator for the N64 Console System"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "1964"
+            VALUE "FileVersion", "0, 9, 9, 0"
+            VALUE "InternalName", "1964"
+            VALUE "LegalCopyright", "Copyright ?1999-2004 Joel Middendorf"
+            VALUE "LegalTrademarks", "All Trademarks are the rights and property of their respective owners."
+            VALUE "OriginalFilename", "1964.exe"
+            VALUE "ProductName", "  1964"
+            VALUE "ProductVersion", "0, 9, 9, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON                    "icon2.ico"
+IDI_PLAYABLE            ICON                    "icon1.ico"
+IDI_ALMOST_PLAYABLE     ICON                    "playable.ico"
+IDI_NOT_PLAYABLE        ICON                    "almost_p.ico"
+IDI_UNKNOWN             ICON                    "not_play.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    "ABOUTBOX", DIALOG
+    BEGIN
+        RIGHTMARGIN, 361
+        TOPMARGIN, 12
+        BOTTOMMARGIN, 231
+    END
+
+    "CODELIST$(_DEBUG)", DIALOG
+    BEGIN
+        RIGHTMARGIN, 271
+        BOTTOMMARGIN, 411
+    END
+
+    "MEMORY$(_DEBUG)", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 286
+    END
+
+    "PLUGINS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    "ROM_OPTIONS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    "CHEAT_HACK", DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    "OPTIONS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    "CRITICAL_MESSAGE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    "COL_SELECT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    "FOLDERS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    "ROM_INFO", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    "UNAVAILABLE", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 225
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+ROM_OPTIONS DLGINIT
+BEGIN
+    IDC_ROMOPTION_RDRAMSIZE, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_RDRAMSIZE, 0x403, 4, 0
+0x4d34, 0x0042, 
+    IDC_ROMOPTION_RDRAMSIZE, 0x403, 4, 0
+0x4d38, 0x0042, 
+    IDC_ROMOPTION_SAVETYPE, 0x403, 8, 0
+0x4544, 0x4146, 0x4c55, 0x0054, 
+    IDC_ROMOPTION_SAVETYPE, 0x403, 7, 0
+0x4545, 0x5250, 0x4d4f, "\000" 
+    IDC_ROMOPTION_SAVETYPE, 0x403, 7, 0
+0x454d, 0x504d, 0x4b41, "\000" 
+    IDC_ROMOPTION_SAVETYPE, 0x403, 5, 0
+0x5253, 0x4d41, "\000" 
+    IDC_ROMOPTION_SAVETYPE, 0x403, 6, 0
+0x4452, 0x4152, 0x004d, 
+    IDC_ROMOPTION_USETLB, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_USETLB, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_USETLB, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_EEPROMSIZE, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_EEPROMSIZE, 0x403, 10, 0
+0x6f4e, 0x4520, 0x5045, 0x4f52, 0x004d, 
+    IDC_ROMOPTION_EEPROMSIZE, 0x403, 11, 0
+0x4b32, 0x2042, 0x4545, 0x5250, 0x4d4f, "\000" 
+    IDC_ROMOPTION_EEPROMSIZE, 0x403, 11, 0
+0x4b34, 0x2042, 0x4545, 0x5250, 0x4d4f, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x313d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x323d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x333d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x343d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x353d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x363d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x373d, "\000" 
+    IDC_ROMOPTION_CF, 0x403, 5, 0
+0x4643, 0x383d, "\000" 
+    IDC_ROMOPTION_MAXVISPEED, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_MAXVISPEED, 0x403, 13, 0
+0x6f4e, 0x4d20, 0x7861, 0x5320, 0x6570, 0x6465, "\000" 
+    IDC_ROMOPTION_MAXVISPEED, 0x403, 12, 0
+0x544e, 0x4353, 0x3620, 0x2030, 0x7066, 0x0073, 
+    IDC_ROMOPTION_MAXVISPEED, 0x403, 11, 0
+0x4150, 0x204c, 0x3035, 0x6620, 0x7370, "\000" 
+    IDC_ROMOPTION_CPUEMULATOR, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_CPUEMULATOR, 0x403, 14, 0
+0x7944, 0x616e, 0x432d, 0x6d6f, 0x6970, 0x656c, 0x0072, 
+    IDC_ROMOPTION_CPUEMULATOR, 0x403, 12, 0
+0x6e49, 0x6574, 0x7072, 0x6572, 0x6574, 0x0072, 
+    IDC_ROMOPTION_TIMING_CONTROL, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_TIMING_CONTROL, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_TIMING_CONTROL, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_CODECHECK, 0x403, 15, 0
+0x6544, 0x6166, 0x6c75, 0x2074, 0x654d, 0x6874, 0x646f, "\000" 
+    IDC_ROMOPTION_CODECHECK, 0x403, 12, 0
+0x6f4e, 0x4320, 0x6568, 0x6b63, 0x6e69, 0x0067, 
+    IDC_ROMOPTION_CODECHECK, 0x403, 13, 0
+0x6843, 0x6365, 0x206b, 0x654d, 0x6f6d, 0x7972, "\000" 
+    IDC_ROMOPTION_CODECHECK, 0x403, 23, 0
+0x6843, 0x6365, 0x206b, 0x654d, 0x6f6d, 0x7972, 0x6120, 0x646e, 0x4320, 
+0x6361, 0x6568, "\000" 
+    IDC_ROMOPTION_ASSUME_32BIT, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_ASSUME_32BIT, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_ASSUME_32BIT, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_USEREGC, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_USEREGC, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_USEREGC, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_FPUHACK, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_FPUHACK, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_FPUHACK, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_LINK4KB, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_LINK4KB, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_LINK4KB, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_ANALYSIS, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_ANALYSIS, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_ANALYSIS, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_FRAMEBUFFER_R_W, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_FRAMEBUFFER_R_W, 0x403, 14, 0
+0x7944, 0x616e, 0x432d, 0x6d6f, 0x6970, 0x656c, 0x0072, 
+    IDC_ROMOPTION_FRAMEBUFFER_R_W, 0x403, 12, 0
+0x6e49, 0x6574, 0x7072, 0x6572, 0x6574, 0x0072, 
+    IDC_ROMOPTION_SP_DP_TIMING, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_SP_DP_TIMING, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_SP_DP_TIMING, 0x403, 3, 0
+0x6f4e, "\000" 
+    IDC_ROMOPTION_HLE, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_ROMOPTION_HLE, 0x403, 4, 0
+0x6559, 0x0073, 
+    IDC_ROMOPTION_HLE, 0x403, 3, 0
+0x6f4e, "\000" 
+    0
+END
+
+CHEAT_HACK DLGINIT
+BEGIN
+    IDC_CHEATCODE_COUNTRY, 0x403, 14, 0
+0x6c41, 0x206c, 0x6f43, 0x6e75, 0x7274, 0x6569, 0x0073, 
+    IDC_CHEATCODE_COUNTRY, 0x403, 4, 0
+0x5355, 0x0041, 
+    IDC_CHEATCODE_COUNTRY, 0x403, 6, 0
+0x614a, 0x6170, 0x006e, 
+    IDC_CHEATCODE_COUNTRY, 0x403, 25, 0
+0x7545, 0x6f72, 0x6570, 0x6120, 0x646e, 0x5020, 0x4c41, 0x4320, 0x756f, 
+0x746e, 0x6972, 0x7365, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_AUDIO               BITMAP                  "audio.bmp"
+IDB_INPUT               BITMAP                  "input.bmp"
+IDB_VIDEO               BITMAP                  "video.bmp"
+IDR_TOOLBAR1            BITMAP                  "toolbar1.bmp"
+IDB_RSP                 BITMAP                  "rsp.bmp"
+IDB_N64LOGO             BITMAP                  "N64logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_BUTTON_OPEN_ROM
+    BUTTON      ID_BUTTON_FULL_SCREEN
+    BUTTON      ID_BUTTON_HOME_PAGE
+    BUTTON      ID_BUTTON_ROM_PROPERTIES
+    BUTTON      ID_BUTTON_PLAY
+    BUTTON      ID_BUTTON_PAUSE
+    BUTTON      ID_BUTTON_STOP
+    BUTTON      ID_BUTTON_SETUP_PLUGINS
+    BUTTON      ID_BUTTON_RESET
+    BUTTON      ID_BUTTON_HELP
+    BUTTON      ID_BUTTON_FRAMESKIP
+    BUTTON      ID_BUTTON_SYNC_SPEED
+    BUTTON      ID_BUTTON_AUTO_CF
+    BUTTON      IDB_GREEN_CHEAT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    1                       "Because the program is licensed free of charge, there is no warranty\nfor the program, to the extent permitted by applicable law.  Except when\notherwise stated in writing the copyright holders and/or other parties\nprovide the program ""as is"" without warranty of any kind, either expressed\nor implied, including, but not limited to, the implied warranties of\nmerchantability and fitness for a particular purpose.The entire risk as\nto the quality and performance of the program is with you.  Should the\nprogram prove defective, you assume the cost of all necessary servicing,\nrepair or correction."
+    2                       "In no event unless required by applicable law or agreed to in writing\nwill any copyright holder, or any other party who may modify and/or\nredistribute the program as permitted above, be liable to you for damages,\nincluding any general, special, incidental or consequential damages arising\nout of the use or inability to use the program (including but not limited\nto loss of data or data being rendered inaccurate or losses sustained by\nyou or third parties or a failure of the program to operate with any other\nprograms), even if such holder or other party has been advised of the\npossibility of such damages."
+    IDS_DEFAULT_PLUGIN_PATH "Plugin\\"
+    4                       "1964 version 0.9.9, Copyright (C) 1999-2004 Joel Middendorf  schibo@emulation64.com\n\n1964 comes with ABSOLUTELY NO WARRANTY; for details refer to 'Help...About Warranty'.  This is free software, and you are welcome to redistribute it under certain conditions; refer to 'Help...Redistribution Conditions' for details."
+    IDS_DEFAULT_SAVE_PATH   "Save\\"
+    IDS_KEY_STATE_SAVE_PATH "StateSaveDirectory"
+    IDS_DEFAULT_AUDIO_PLUGIN "1964Aud.dll"
+    IDS_DEFAULT_VIDEO_PLUGIN "1964Video.dll"
+    IDS_DEFAULT_INPUT_PLUGIN "1964Input.dll"
+    IDS_KEY_AUDIO_PLUGIN    "AudioPlugin"
+    IDS_KEY_INPUT_PLUGIN    "InputPlugin"
+    IDS_KEY_VIDEO_PLUGIN    "VideoPlugin"
+    IDS_KEY_PLUGIN_PATH     "PluginDirectory"
+    IDS_KEY_ROM_PATH        "RomDirectory"
+    IDS_KEY_SAVE_PATH       "SaveDirectory"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_KEY_USE_DEFAULT_PLUGIN_PATH "UseDefaultPluginDirectory"
+    IDS_KEY_USE_DEFAULT_SAVE_PATH "UseDefaultSaveDirectory"
+    IDS_KEY_USE_LAST_USED_ROM_PATH "UseLastRomDirectory"
+    IDS_RECENT_ROMS         "Recent ROMs"
+    IDS_KEY_USE_DEFAULT_STATE_SAVE_PATH "UseDefaultStateSaveDirectory"
+    IDS_DEFAULT_STATE_SAVE_PATH "SaveState\\"
+    IDS_CHEAT_NOTE          "Enter the game shark code or other hack code above in the game shark code format, for example: 802312340064.\n\nYou can enter multiple lines as a group.  Give each group of codes a name in the name field, then click the [Add/Modify] button to add it into the list in the left. Existing code with the same name will be replaced."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_HELP_FINDER          "Help me!"
+    IDS_KEY_RSP_PLUGIN      "RSPPlugin"
+    IDS_DEFAULT_RSP_PLUGIN  "none"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BUTTON330            "Pause"
+    ID_BUTTON_FULL_SCREEN   "Full Screen (Alt+Enter)"
+    ID_BUTTON_HOME_PAGE     "1964 Home Page"
+    ID_BUTTON_ROM_PROPERTIES "ROM Properties (Ctrl+S)"
+    ID_BUTTON_OPEN_ROM      "Open (Ctrl+O)"
+    ID_BUTTON_PLAY          "Play (F3)"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_PAUSE         "Pause (F3)"
+    ID_BUTTON_STOP          "Stop (F4)"
+    ID_BUTTON_SETUP_PLUGINS "Change Plugins (Ctrl+P)"
+    ID_BUTTON_RESET         "Reset (F2)"
+    ID_BUTTON_HELP          "Help (F1)"
+    ID_BUTTON_FRAMESKIP     "Automatic Frame Skip (F11)"
+    ID_BUTTON_SYNC_SPEED    "Speed Limit (F9)"
+    ID_BUTTON_AUTO_CF       "Automatic CF Timing Adjust  (F10)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDB_GREEN_CHEAT         "Inject Green Button Cheat (F8)"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Microcode">
+      <UniqueIdentifier>{1d37a21f-8ce4-40b6-b5fe-3d6582591c0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Microcode\BanjoMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\ConkerMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\DK64Microcode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\DKRMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\DrMarioMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\FZeroMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\GauntletMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\GoldenEyeMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\MarioKartMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\MarioMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\PDMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\SmashBrosMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\StarFoxMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\TooieMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\YoshiMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\ZeldaMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Microcode\ZeldaMMMicrocode.c">
+      <Filter>Microcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Audio.c" />
+    <ClCompile Include="..\..\Shared\execute.c" />
+    <ClCompile Include="..\..\Shared\Main.c" />
+    <ClCompile Include="..\..\Shared\rsp_opcodes.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Microcode\jumptable.h">
+      <Filter>Microcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Microcode\Microcode.h">
+      <Filter>Microcode</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="1964Audio.rc" />
+  </ItemGroup>
+</Project>

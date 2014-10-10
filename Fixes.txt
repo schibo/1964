@@ -1,0 +1,13 @@
+2005-05-01
+Fixed Kirby Bug with Block linking on. When Kirby collided with character, his face would remain smashed in.
+This fix is in dynabranch.h. When blocks are linked, the next fpu instruction at the target needs to be able to test for a CP1 unusable exception.
+
+2005-07-18
+MTC0 CP0[CAUSE] now supports new Interrupts. This needs to be done across STATUS and in other places including TLB ops and probably other areas. Look SET_EXCEPTION() will be different for different types of exceptions, so we may need another set of functions that SET the proper exception other than EXC_INT.
+
+2006-12-10
+Fixed audio dropping out after loading a state. 
+
+What's new:
+===========
+New audio and controller plugins. The audio plugin requires SSE1 support.

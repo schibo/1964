@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1964.exe", "1964.exe.vcproj", "{02CE71AA-51C0-4786-9CB4-076C60D021A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release Not Optimized|Win32 = Release Not Optimized|Win32
+		Release Opcode Debugger|Win32 = Release Opcode Debugger|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Debug|Win32.Build.0 = Debug|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Not Optimized|Win32.ActiveCfg = Release Not Optimized|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Not Optimized|Win32.Build.0 = Release Not Optimized|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Opcode Debugger|Win32.ActiveCfg = Release Opcode Debugger|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release Opcode Debugger|Win32.Build.0 = Release Opcode Debugger|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release|Win32.ActiveCfg = Release|Win32
+		{02CE71AA-51C0-4786-9CB4-076C60D021A8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
